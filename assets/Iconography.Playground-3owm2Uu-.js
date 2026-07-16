@@ -1,0 +1,5 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{P as t,c as n,i as r,n as i,s as a,x as o}from"./blocks-C9S6geZK.js";import{t as s}from"./mdx-react-shim-B7BPVVwx.js";import{PlaygroundStory as c,n as l,t as u}from"./Iconography.stories-BYJ911A6.js";function d(e){let n={h2:`h2`,p:`p`,...t(),...e.components};return(0,p.jsxs)(p.Fragment,{children:[(0,p.jsx)(a,{of:u,name:`Playground`}),`
+`,(0,p.jsx)(n.h2,{id:`playground`,children:`Playground`}),`
+`,(0,p.jsx)(n.p,{children:`Interact with the controls below to configure the icon. The code snippet updates automatically.`}),`
+`,(0,p.jsx)(i,{of:c,sourceState:`shown`}),`
+`,(0,p.jsx)(r,{of:c})]})}function f(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,p.jsx)(n,{...e,children:(0,p.jsx)(d,{...e})}):d(e)}var p;e((()=>{p=o(),s(),n(),l()}))();export{f as default};
