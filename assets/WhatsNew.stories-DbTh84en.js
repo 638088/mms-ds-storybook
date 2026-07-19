@@ -17,7 +17,9 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      ${a(`v0.12.0 — Pre-release — 2026-07-19`,!0,[{heading:`Components`,items:[`mms-link component — external link styling with arrow icon, accessibility-first design (DS-027)`,`icon-only mode for mms-button — compact icon buttons with WCAG 2.2 touch target sizing (DS-067)`]},{heading:`Storybook polish`,items:[`Page centering — all Foundations/Introduction/Developer Guide pages now centered with margin: 0 auto`,`(Coming soon) labels — 24 component placeholder stories marked in sidebar`,`(Draft) labels — 4 Developer Guide stories marked in sidebar`,`PAGE_MAX standardization — all doc pages use consistent 960px max-width`]},{heading:`Platform tooling`,items:[`Husky git hooks — deterministic pre-commit validation`,`.github/memory/ — parallel memory files for Copilot access`,`DS-119 theme intake planning — Virginia engagement preparation`]}])}
+      ${a(`v0.12.1 — Pre-release — 2026-07-19`,!0,[{heading:`Bug fix`,items:[`Storybook sidebar — storySort order now matches (Coming soon) story title suffixes`]}])}
+
+      ${a(`v0.12.0 — Pre-release — 2026-07-19`,!1,[{heading:`Components`,items:[`mms-link component — external link styling with arrow icon, accessibility-first design (DS-027)`,`icon-only mode for mms-button — compact icon buttons with WCAG 2.2 touch target sizing (DS-067)`]},{heading:`Storybook polish`,items:[`Page centering — all Foundations/Introduction/Developer Guide pages now centered with margin: 0 auto`,`(Coming soon) labels — 24 component placeholder stories marked in sidebar`,`(Draft) labels — 4 Developer Guide stories marked in sidebar`,`PAGE_MAX standardization — all doc pages use consistent 960px max-width`]},{heading:`Platform tooling`,items:[`Husky git hooks — deterministic pre-commit validation`,`.github/memory/ — parallel memory files for Copilot access`,`DS-119 theme intake planning — Virginia engagement preparation`]}])}
 
       ${a(`v0.11.0 — Pre-release — 2026-07-16`,!1,[{heading:`NPM distribution live (DS-117)`,items:[`First package published to JFrog Artifactory — @mms/design-system@0.10.0`,`Consumer installation path verified — npm install with registry flag`,`React wrappers (MmsButton, MmsIcon) using @lit/react — typed props, React events, ref forwarding`,`CSS exports fixed for ESM bundlers (Vite) — added import/default conditions`,`Developer Guide updated — theme activation (data-theme attribute) documented`]}])}
 
@@ -52,7 +54,12 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      \${entry('v0.12.0 — Pre-release — 2026-07-19', true, [{
+      \${entry('v0.12.1 — Pre-release — 2026-07-19', true, [{
+    heading: 'Bug fix',
+    items: ['Storybook sidebar — storySort order now matches (Coming soon) story title suffixes']
+  }])}
+
+      \${entry('v0.12.0 — Pre-release — 2026-07-19', false, [{
     heading: 'Components',
     items: ['mms-link component — external link styling with arrow icon, accessibility-first design (DS-027)', 'icon-only mode for mms-button — compact icon buttons with WCAG 2.2 touch target sizing (DS-067)']
   }, {
