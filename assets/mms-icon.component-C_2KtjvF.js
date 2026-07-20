@@ -72,4 +72,4 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{n as t,t as n}from"./p
         aria-label=${r?``:this.label}
       >${L(n)}</svg>
       ${t?u`<span class="badge ${t}" aria-hidden="true">${t===`count`?this.badgeText:o}</span>`:o}
-    `}},B([h({type:String})],G.prototype,`name`,void 0),B([h({type:String})],G.prototype,`size`,void 0),B([h({type:String})],G.prototype,`weight`,void 0),B([h({type:String})],G.prototype,`label`,void 0),B([h({type:String})],G.prototype,`badge`,void 0),B([y()],G.prototype,`_svgsLoaded`,void 0),G=B([p(`mms-icon`)],G)}));export{k as a,h as c,O as i,m as l,B as n,D as o,V as r,v as s,K as t,p as u};
+    `}},B([h({type:String})],G.prototype,`name`,void 0),B([h({type:String})],G.prototype,`size`,void 0),B([h({type:String})],G.prototype,`weight`,void 0),B([h({type:String})],G.prototype,`label`,void 0),B([h({type:String})],G.prototype,`badge`,void 0),B([y()],G.prototype,`_svgsLoaded`,void 0),G=B([p(`mms-icon`)],G)}));export{k as a,y as c,m as d,p as f,O as i,v as l,B as n,D as o,V as r,b as s,K as t,h as u};
