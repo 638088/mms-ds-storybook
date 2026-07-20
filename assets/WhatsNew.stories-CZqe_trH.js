@@ -17,7 +17,11 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      ${a(`v0.12.1 — Pre-release — 2026-07-19`,!0,[{heading:`Bug fix`,items:[`Storybook sidebar — storySort order now matches (Coming soon) story title suffixes`]}])}
+      ${a(`v0.12.3 — Pre-release — 2026-07-20`,!0,[{heading:`Platform tooling`,items:[`/publish-npm skill — full workflow for publishing to JFrog Artifactory (DS-121)`,`Fixed verify-bundle.mjs npm pack conflicts (temp directory isolation)`,`Fixed husky prepare script error during npm publish`,`DS-122 marked blocked — Copilot hooks bypassable by enterprise policy`]}])}
+
+      ${a(`v0.12.2 — Pre-release — 2026-07-20`,!1,[{heading:`Platform tooling`,items:[`Workflow governance hooks — 9 of 13 hooks now hard-enforced via Husky + direnv (DS-122)`,`Copilot hooks blocked by enterprise policy — implemented alternative enforcement stack`,`Guards: commit-guard, protect-branches, tracker-status-guard, check-image-size, tracker-drift-check, post-commit-reminder, pr-create-guard, pr-merge-guard, violation-guard`]}])}
+
+      ${a(`v0.12.1 — Pre-release — 2026-07-19`,!1,[{heading:`Bug fix`,items:[`Storybook sidebar — storySort order now matches (Coming soon) story title suffixes`]}])}
 
       ${a(`v0.12.0 — Pre-release — 2026-07-19`,!1,[{heading:`Components`,items:[`mms-link component — external link styling with arrow icon, accessibility-first design (DS-027)`,`icon-only mode for mms-button — compact icon buttons with WCAG 2.2 touch target sizing (DS-067)`]},{heading:`Storybook polish`,items:[`Page centering — all Foundations/Introduction/Developer Guide pages now centered with margin: 0 auto`,`(Coming soon) labels — 24 component placeholder stories marked in sidebar`,`(Draft) labels — 4 Developer Guide stories marked in sidebar`,`PAGE_MAX standardization — all doc pages use consistent 960px max-width`]},{heading:`Platform tooling`,items:[`Husky git hooks — deterministic pre-commit validation`,`.github/memory/ — parallel memory files for Copilot access`,`DS-119 theme intake planning — Virginia engagement preparation`]}])}
 
@@ -54,7 +58,17 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      \${entry('v0.12.1 — Pre-release — 2026-07-19', true, [{
+      \${entry('v0.12.3 — Pre-release — 2026-07-20', true, [{
+    heading: 'Platform tooling',
+    items: ['/publish-npm skill — full workflow for publishing to JFrog Artifactory (DS-121)', 'Fixed verify-bundle.mjs npm pack conflicts (temp directory isolation)', 'Fixed husky prepare script error during npm publish', 'DS-122 marked blocked — Copilot hooks bypassable by enterprise policy']
+  }])}
+
+      \${entry('v0.12.2 — Pre-release — 2026-07-20', false, [{
+    heading: 'Platform tooling',
+    items: ['Workflow governance hooks — 9 of 13 hooks now hard-enforced via Husky + direnv (DS-122)', 'Copilot hooks blocked by enterprise policy — implemented alternative enforcement stack', 'Guards: commit-guard, protect-branches, tracker-status-guard, check-image-size, tracker-drift-check, post-commit-reminder, pr-create-guard, pr-merge-guard, violation-guard']
+  }])}
+
+      \${entry('v0.12.1 — Pre-release — 2026-07-19', false, [{
     heading: 'Bug fix',
     items: ['Storybook sidebar — storySort order now matches (Coming soon) story title suffixes']
   }])}
