@@ -1,35 +1,35 @@
-import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{n as i}from"./iframe-t5oeRteW.js";function a(e,t){return(o[e]??[`onyx`]).includes(t)}var o,s=e((()=>{o={default:[`onyx`],maximus:[`primary`,`secondary`,`onyx`],"va-gov":[`primary`,`accent`,`onyx`]}})),c=t({Overview:()=>m,PlaygroundStory:()=>h,__namedExportsOrder:()=>g,default:()=>u}),l,u,d,f,p,m,h,g,_=e((()=>{r(),i(),s(),l=`.arrow-left.arrow-right.arrow-up.arrow-down.arrow-clockwise.arrow-square-out.caret-left.caret-right.caret-up.caret-down.plus.minus.x.check.pencil.trash.copy.upload.download.export.floppy-disk.printer.paperclip.play.pause.stop.magnifying-glass.funnel.gear.envelope.phone.share-network.user.sign-in.sign-out.lock.lock-open.eye.eye-slash.calendar.shopping-cart.heart.star.question.info`.split(`.`),u={title:`Actions/Button`,tags:[`!autodocs`]},d={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},f=`680px`,p=`960px`,m={name:`Overview`,render:()=>n`
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${p}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{n as i}from"./iframe--zZGbKii.js";import{n as a,t as o}from"./theme-constraints-BagCRQzo.js";var s=t({Overview:()=>p,PlaygroundStory:()=>m,__namedExportsOrder:()=>h,default:()=>l}),c,l,u,d,f,p,m,h,g=e((()=>{r(),i(),o(),c=`.arrow-left.arrow-right.arrow-up.arrow-down.arrow-clockwise.arrow-square-out.caret-left.caret-right.caret-up.caret-down.plus.minus.x.check.pencil.trash.copy.upload.download.export.floppy-disk.printer.paperclip.play.pause.stop.magnifying-glass.funnel.gear.envelope.phone.share-network.user.sign-in.sign-out.lock.lock-open.eye.eye-slash.calendar.shopping-cart.heart.star.question.info`.split(`.`),l={title:`Actions/Button`,tags:[`!autodocs`]},u={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},d=`680px`,f=`960px`,p={name:`Overview`,render:()=>n`
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${f}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
 
       <!-- Header -->
-      <h1 style="${d.h1}">Button</h1>
-      <p style="${d.body} opacity: 0.85; max-width: ${f}; margin-bottom: 2rem;">
+      <h1 style="${u.h1}">Button</h1>
+      <p style="${u.body} opacity: 0.85; max-width: ${d}; margin-bottom: 2rem;">
         Buttons trigger actions. The MMS Design System provides a unified button component with three visual variants — <strong>primary</strong>, <strong>secondary</strong>, and <strong>ghost</strong> — each serving distinct interaction patterns.
       </p>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Variants -->
-      <h2 style="${d.h2}">Variants</h2>
+      <h2 style="${u.h2}">Variants</h2>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
         <div style="padding: 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px; display: flex; flex-direction: column;">
-          <p style="${d.h3}">Primary</p>
-          <p style="${d.bodySm} opacity: 0.85; flex: 1;">
+          <p style="${u.h3}">Primary</p>
+          <p style="${u.bodySm} opacity: 0.85; flex: 1;">
             High-emphasis actions. Use for the primary call-to-action on a page or form.
           </p>
           <div style="margin-top: 1rem;"><mms-button variant="primary" label="Submit"></mms-button></div>
         </div>
         <div style="padding: 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px; display: flex; flex-direction: column;">
-          <p style="${d.h3}">Secondary</p>
-          <p style="${d.bodySm} opacity: 0.85; flex: 1;">
+          <p style="${u.h3}">Secondary</p>
+          <p style="${u.bodySm} opacity: 0.85; flex: 1;">
             Medium-emphasis actions. Use alongside primary buttons for secondary options.
           </p>
           <div style="margin-top: 1rem;"><mms-button variant="secondary" label="Cancel"></mms-button></div>
         </div>
         <div style="padding: 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px; display: flex; flex-direction: column;">
-          <p style="${d.h3}">Ghost</p>
-          <p style="${d.bodySm} opacity: 0.85; flex: 1;">
+          <p style="${u.h3}">Ghost</p>
+          <p style="${u.bodySm} opacity: 0.85; flex: 1;">
             Low-emphasis actions. Use for tertiary actions or inline links.
           </p>
           <div style="margin-top: 1rem;"><mms-button variant="ghost" label="Learn more"></mms-button></div>
@@ -39,15 +39,15 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Color Schemes -->
-      <h2 style="${d.h2}">Color Schemes</h2>
-      <p style="${d.bodySm} opacity: 0.85; max-width: ${f}; margin-bottom: 1.5rem;">
-        The <code style="${d.monoSm}">color-scheme</code> prop controls which color palette the button uses. Four options are available:
+      <h2 style="${u.h2}">Color Schemes</h2>
+      <p style="${u.bodySm} opacity: 0.85; max-width: ${d}; margin-bottom: 1.5rem;">
+        The <code style="${u.monoSm}">color-scheme</code> prop controls which color palette the button uses. Four options are available:
       </p>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
         <div style="padding: 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px;">
-          <p style="${d.h3}">Primary &amp; Secondary</p>
-          <p style="${d.bodySm} opacity: 0.85; margin-bottom: 1rem;">
+          <p style="${u.h3}">Primary &amp; Secondary</p>
+          <p style="${u.bodySm} opacity: 0.85; margin-bottom: 1rem;">
             Brand colors defined by the active theme. Use for most UI actions.
           </p>
           <div style="display: flex; gap: 0.75rem;">
@@ -56,8 +56,8 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
           </div>
         </div>
         <div style="padding: 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px;">
-          <p style="${d.h3}">Accent &amp; Onyx</p>
-          <p style="${d.bodySm} opacity: 0.85; margin-bottom: 1rem;">
+          <p style="${u.h3}">Accent &amp; Onyx</p>
+          <p style="${u.bodySm} opacity: 0.85; margin-bottom: 1rem;">
             <strong>Accent</strong> is theme-specific highlight color. <strong>Onyx</strong> is structural black — always available.
           </p>
           <div style="display: flex; gap: 0.75rem;">
@@ -67,15 +67,15 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
         </div>
       </div>
 
-      <p style="${d.caption} opacity: 0.65; margin-bottom: 2rem;">
+      <p style="${u.caption} opacity: 0.65; margin-bottom: 2rem;">
         Theme determines which color schemes are available. Onyx is the only palette guaranteed across all themes. Colors that don't meet WCAG contrast requirements are classified as decorative (9 steps only, no hover/pressed states) and are out of scope for interactive components.
       </p>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Sizes -->
-      <h2 style="${d.h2}">Sizes</h2>
-      <p style="${d.bodySm} opacity: 0.85; max-width: ${f}; margin-bottom: 1.5rem;">
+      <h2 style="${u.h2}">Sizes</h2>
+      <p style="${u.bodySm} opacity: 0.85; max-width: ${d}; margin-bottom: 1.5rem;">
         Three sizes accommodate different contexts — compact UIs, standard forms, and prominent CTAs.
       </p>
 
@@ -88,8 +88,8 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Icons -->
-      <h2 style="${d.h2}">With icons</h2>
-      <p style="${d.bodySm} opacity: 0.85; max-width: ${f}; margin-bottom: 1.5rem;">
+      <h2 style="${u.h2}">With icons</h2>
+      <p style="${u.bodySm} opacity: 0.85; max-width: ${d}; margin-bottom: 1.5rem;">
         Icons can be placed on the left, right, or both sides of the label to reinforce meaning.
       </p>
 
@@ -102,9 +102,9 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Icon-Only Mode -->
-      <h2 style="${d.h2}">Icon-only mode</h2>
-      <p style="${d.bodySm} opacity: 0.85; max-width: ${f}; margin-bottom: 1.5rem;">
-        Use <code style="${d.monoSm}">icon-only</code> for compact actions where visual context makes the icon meaning clear (close, menu, settings). The <code style="${d.monoSm}">label</code> prop becomes the accessible name — <strong>always provide a label for screen readers</strong>.
+      <h2 style="${u.h2}">Icon-only mode</h2>
+      <p style="${u.bodySm} opacity: 0.85; max-width: ${d}; margin-bottom: 1.5rem;">
+        Use <code style="${u.monoSm}">icon-only</code> for compact actions where visual context makes the icon meaning clear (close, menu, settings). The <code style="${u.monoSm}">label</code> prop becomes the accessible name — <strong>always provide a label for screen readers</strong>.
       </p>
 
       <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
@@ -115,15 +115,15 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       </div>
 
       <div style="padding: 1rem 1.25rem; background: rgba(128,128,128,0.05); border-radius: 8px; margin-bottom: 1.5rem;">
-        <p style="${d.h3}">A11y requirements</p>
-        <ul style="${d.bodySm} opacity: 0.85; margin: 0; padding-left: 1.25rem;">
-          <li style="margin-bottom: 0.5rem;"><strong>Always provide a <code style="${d.monoSm}">label</code></strong> — It becomes the <code style="${d.monoSm}">aria-label</code> for screen readers.</li>
-          <li style="margin-bottom: 0.5rem;"><strong>Use <code style="${d.monoSm}">aria-label</code> for overrides</strong> — When the accessible name should differ from the visible label text.</li>
+        <p style="${u.h3}">A11y requirements</p>
+        <ul style="${u.bodySm} opacity: 0.85; margin: 0; padding-left: 1.25rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Always provide a <code style="${u.monoSm}">label</code></strong> — It becomes the <code style="${u.monoSm}">aria-label</code> for screen readers.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Use <code style="${u.monoSm}">aria-label</code> for overrides</strong> — When the accessible name should differ from the visible label text.</li>
           <li style="margin-bottom: 0.5rem;"><strong>Touch targets</strong> — Icon-only buttons enforce WCAG 2.2 minimum sizing: 44×44px on touch devices, 24×24px on mouse devices.</li>
         </ul>
       </div>
 
-      <pre style="background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; ${d.monoSm} margin-bottom: 2rem;"><code>&lt;!-- Standard: label becomes aria-label --&gt;
+      <pre style="background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; ${u.monoSm} margin-bottom: 2rem;"><code>&lt;!-- Standard: label becomes aria-label --&gt;
 &lt;mms-button label="Close" left-icon="x" icon-only&gt;&lt;/mms-button&gt;
 
 &lt;!-- Override: different aria-label for more context --&gt;
@@ -132,11 +132,11 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Accessibility -->
-      <h2 style="${d.h2}">Accessibility</h2>
-      <ul style="${d.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
-        <li style="margin-bottom: 0.5rem;">Uses native <code style="${d.monoSm}">&lt;button&gt;</code> element for full keyboard support</li>
+      <h2 style="${u.h2}">Accessibility</h2>
+      <ul style="${u.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
+        <li style="margin-bottom: 0.5rem;">Uses native <code style="${u.monoSm}">&lt;button&gt;</code> element for full keyboard support</li>
         <li style="margin-bottom: 0.5rem;">Focus ring meets WCAG 2.2 minimum area requirements (2px offset)</li>
-        <li style="margin-bottom: 0.5rem;">Disabled state uses <code style="${d.monoSm}">aria-disabled</code> to maintain focusability for screen readers</li>
+        <li style="margin-bottom: 0.5rem;">Disabled state uses <code style="${u.monoSm}">aria-disabled</code> to maintain focusability for screen readers</li>
         <li style="margin-bottom: 0.5rem;">Text contrast meets WCAG AA (4.5:1 against background)</li>
         <li style="margin-bottom: 0.5rem;">Non-text contrast (fill, stroke, icons) meets WCAG 1.4.11 (3:1 against background)</li>
       </ul>
@@ -144,13 +144,13 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Usage -->
-      <h2 style="${d.h2}">Usage</h2>
-      <pre style="background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; ${d.monoSm}"><code>&lt;mms-button variant="primary" label="Submit"&gt;&lt;/mms-button&gt;
+      <h2 style="${u.h2}">Usage</h2>
+      <pre style="background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; ${u.monoSm}"><code>&lt;mms-button variant="primary" label="Submit"&gt;&lt;/mms-button&gt;
 &lt;mms-button variant="secondary" label="Cancel"&gt;&lt;/mms-button&gt;
 &lt;mms-button variant="ghost" label="Learn more"&gt;&lt;/mms-button&gt;</code></pre>
 
     </div>
-  `},h={name:`Playground`,tags:[`!dev`],args:{variant:`primary`,size:`md`,roundness:`subtle`,state:`default`,disabled:!1,label:`Button`,leftIcon:``,rightIcon:``,iconOnly:!1,ariaLabel:``,colorScheme:`primary`,theme:`maximus`,density:`default`},decorators:[e=>n`
+  `},m={name:`Playground`,tags:[`!dev`],args:{variant:`primary`,size:`md`,roundness:`subtle`,state:`default`,disabled:!1,label:`Button`,leftIcon:``,rightIcon:``,iconOnly:!1,ariaLabel:``,colorScheme:`primary`,theme:`maximus`,density:`default`},decorators:[e=>n`
         <div
           style="
             min-height: 80px;
@@ -162,7 +162,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
         >
           ${e()}
         </div>
-      `],argTypes:{variant:{name:`Variant`,control:`select`,options:[`primary`,`secondary`,`ghost`],description:`Visual variant: primary (solid), secondary (outlined), ghost (text only)`,table:{category:`Component Props`}},colorScheme:{name:`Color Scheme`,control:`select`,options:[`primary`,`secondary`,`accent`,`onyx`],description:`Color palette for the button. "onyx" is structural (works on all themes). Brand colors (primary/secondary/accent) availability depends on theme.`,table:{category:`Component Props`}},size:{name:`Size`,control:`select`,options:[`sm`,`md`,`lg`],description:`Button size`,table:{category:`Component Props`}},roundness:{name:`Roundness`,control:`select`,options:[`boxed`,`subtle`,`rounded`],description:`Corner radius: boxed (0), subtle (4px), rounded (pill)`,table:{category:`Component Props`}},state:{name:`State`,control:`select`,options:[`default`,`hover`,`focus`,`active`],description:`Preview state (Storybook only)`,table:{category:`Component Props`}},disabled:{name:`Disabled`,control:`boolean`,description:`Disabled state`,table:{category:`Component Props`}},label:{name:`Label`,control:`text`,description:`Button text`,table:{category:`Component Props`}},leftIcon:{name:`Left Icon`,control:`select`,options:l,description:`Curated list of common button icons. In code, any icon from the full Phosphor registry (1,512 icons) can be used.`,table:{category:`Component Props`}},rightIcon:{name:`Right Icon`,control:`select`,options:l,description:`Curated list of common button icons. In code, any icon from the full Phosphor registry (1,512 icons) can be used.`,table:{category:`Component Props`}},iconOnly:{name:`Icon Only`,control:`boolean`,description:`Hides visible label, renders icon only. Label becomes aria-label for screen readers.`,table:{category:`Component Props`}},ariaLabel:{name:`Aria Label`,control:`text`,description:`Override accessible name. Use when aria-label should differ from label text.`,table:{category:`Component Props`}},theme:{name:`Theme`,control:`select`,options:[`maximus`,`va-gov`,`default`],description:`Brand theme`,table:{category:`Global Props`}},density:{name:`Density`,control:`select`,options:[`default`,`compact`],description:`Spacing density`,table:{category:`Global Props`}}},parameters:{docs:{source:{transform:(e,t)=>{let n=t.args,r=n.colorScheme===`primary`?``:` color-scheme="${n.colorScheme}"`,i=n.leftIcon?` left-icon="${n.leftIcon}"`:``,a=n.rightIcon?` right-icon="${n.rightIcon}"`:``,o=n.iconOnly?` icon-only`:``,s=n.ariaLabel?` aria-label="${n.ariaLabel}"`:``,c=n.disabled?` disabled`:``;return`<mms-button
+      `],argTypes:{variant:{name:`Variant`,control:`select`,options:[`primary`,`secondary`,`ghost`],description:`Visual variant: primary (solid), secondary (outlined), ghost (text only)`,table:{category:`Component Props`}},colorScheme:{name:`Color Scheme`,control:`select`,options:[`primary`,`secondary`,`accent`,`onyx`],description:`Color palette for the button. "onyx" is structural (works on all themes). Brand colors (primary/secondary/accent) availability depends on theme.`,table:{category:`Component Props`}},size:{name:`Size`,control:`select`,options:[`sm`,`md`,`lg`],description:`Button size`,table:{category:`Component Props`}},roundness:{name:`Roundness`,control:`select`,options:[`boxed`,`subtle`,`rounded`],description:`Corner radius: boxed (0), subtle (4px), rounded (pill)`,table:{category:`Component Props`}},state:{name:`State`,control:`select`,options:[`default`,`hover`,`focus`,`active`],description:`Preview state (Storybook only)`,table:{category:`Component Props`}},disabled:{name:`Disabled`,control:`boolean`,description:`Disabled state`,table:{category:`Component Props`}},label:{name:`Label`,control:`text`,description:`Button text`,table:{category:`Component Props`}},leftIcon:{name:`Left Icon`,control:`select`,options:c,description:`Curated list of common button icons. In code, any icon from the full Phosphor registry (1,512 icons) can be used.`,table:{category:`Component Props`}},rightIcon:{name:`Right Icon`,control:`select`,options:c,description:`Curated list of common button icons. In code, any icon from the full Phosphor registry (1,512 icons) can be used.`,table:{category:`Component Props`}},iconOnly:{name:`Icon Only`,control:`boolean`,description:`Hides visible label, renders icon only. Label becomes aria-label for screen readers.`,table:{category:`Component Props`}},ariaLabel:{name:`Aria Label`,control:`text`,description:`Override accessible name. Use when aria-label should differ from label text.`,table:{category:`Component Props`}},theme:{name:`Theme`,control:`select`,options:[`maximus`,`va-gov`,`default`],description:`Brand theme`,table:{category:`Global Props`}},density:{name:`Density`,control:`select`,options:[`default`,`compact`],description:`Spacing density`,table:{category:`Global Props`}}},parameters:{docs:{source:{transform:(e,t)=>{let n=t.args,r=n.colorScheme===`primary`?``:` color-scheme="${n.colorScheme}"`,i=n.leftIcon?` left-icon="${n.leftIcon}"`:``,a=n.rightIcon?` right-icon="${n.rightIcon}"`:``,o=n.iconOnly?` icon-only`:``,s=n.ariaLabel?` aria-label="${n.ariaLabel}"`:``,c=n.disabled?` disabled`:``;return`<mms-button
   variant="${n.variant}"${r}
   size="${n.size}"
   roundness="${n.roundness}"
@@ -200,7 +200,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
             This color is decorative-only (no hover/pressed states). Select a different colorScheme for this theme.
           </p>
         </div>
-      `},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+      `},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{
   name: 'Overview',
   render: () => html\`
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: \${PAGE_MAX}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
@@ -355,7 +355,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
 
     </div>
   \`
-}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+}`,...p.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
   name: 'Playground',
   tags: ['!dev'],
   args: {
@@ -585,4 +585,4 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
       ></mms-button>
     \`;
   }
-}`,...h.parameters?.docs?.source}}},g=[`Overview`,`PlaygroundStory`]}));_();export{m as Overview,h as PlaygroundStory,g as __namedExportsOrder,u as default,_ as n,c as t};
+}`,...m.parameters?.docs?.source}}},h=[`Overview`,`PlaygroundStory`]}));g();export{p as Overview,m as PlaygroundStory,h as __namedExportsOrder,l as default,g as n,s as t};

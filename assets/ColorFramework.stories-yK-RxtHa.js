@@ -256,7 +256,7 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
 
       <div style="background: rgba(59, 130, 246, 0.08); border-left: 3px solid #3B82F6; padding: 1rem 1.25rem; margin-bottom: 2rem; border-radius: 0 6px 6px 0;">
         <p style="${i.bodySm} margin: 0;">
-          <strong>Why this matters:</strong> You don't check contrast manually. The generator outputs <code>-9-on</code> and <code>-10-on</code> tokens that auto-select white (<code>#ffffff</code>) or dark (<code>#060606</code>) text based on which provides better contrast. Components reference <code>--color-text-on-emphasis</code> which aliases to the computed value.
+          <strong>Why this matters:</strong> You don't check contrast manually. The generator outputs <code>-9-on</code> and <code>-10-on</code> tokens that auto-select white (<code>#ffffff</code>) or dark (<code>#060606</code>) text based on which provides better contrast. Components reference per-color tokens like <code>--color-text-on-primary</code>, <code>--color-text-on-secondary</code>, <code>--color-text-on-accent</code>, and <code>--color-text-on-onyx</code> — each swapping appropriately for theme and mode.
         </p>
       </div>
 
@@ -639,7 +639,7 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
 
       <div style="background: rgba(59, 130, 246, 0.08); border-left: 3px solid #3B82F6; padding: 1rem 1.25rem; margin-bottom: 2rem; border-radius: 0 6px 6px 0;">
         <p style="\${t.bodySm} margin: 0;">
-          <strong>Why this matters:</strong> You don't check contrast manually. The generator outputs <code>-9-on</code> and <code>-10-on</code> tokens that auto-select white (<code>#ffffff</code>) or dark (<code>#060606</code>) text based on which provides better contrast. Components reference <code>--color-text-on-emphasis</code> which aliases to the computed value.
+          <strong>Why this matters:</strong> You don't check contrast manually. The generator outputs <code>-9-on</code> and <code>-10-on</code> tokens that auto-select white (<code>#ffffff</code>) or dark (<code>#060606</code>) text based on which provides better contrast. Components reference per-color tokens like <code>--color-text-on-primary</code>, <code>--color-text-on-secondary</code>, <code>--color-text-on-accent</code>, and <code>--color-text-on-onyx</code> — each swapping appropriately for theme and mode.
         </p>
       </div>
 

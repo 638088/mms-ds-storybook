@@ -7,6 +7,30 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.2); margin: 0 0 2rem;" />
 
       <!-- ═══════════════════════════════════════════════════════════════════════════════
+           PREREQUISITES
+           ═══════════════════════════════════════════════════════════════════════════════ -->
+      <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(239, 68, 68, 0.02)); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid rgba(239, 68, 68, 0.15);">
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+          <div style="width: 32px; height: 32px; background: #ef4444; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.875rem;">!</div>
+          <h2 style="margin: 0; font-size: 1.25rem; font-weight: 700;">Before you start</h2>
+        </div>
+        
+        <p style="margin: 0 0 1rem; font-size: 0.875rem;"><strong>1. Connect to Maximus VPN</strong> — JFrog Artifactory is internal-only and not accessible from public internet.</p>
+
+        <p style="margin: 0 0 0.5rem; font-size: 0.875rem;"><strong>2. Clear any old @mms registry config</strong> — Run this command to remove stale entries:</p>
+
+        <pre style="background: #1e1e1e; color: #d4d4d4; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.8125rem; margin-bottom: 1rem; border: 1px solid rgba(128,128,128,0.2);"><code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;"><span style="color: #6a9955;"># Check for existing @mms config (if no output, you're clean)</span>
+<span style="color: #569cd6;">grep</span> <span style="color: #ce9178;">"@mms"</span> ~/.npmrc
+
+<span style="color: #6a9955;"># If any lines appear, remove them:</span>
+<span style="color: #569cd6;">sed</span> -i <span style="color: #ce9178;">''</span> <span style="color: #ce9178;">'/@mms/d'</span> ~/.npmrc</code></pre>
+
+        <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; font-size: 0.8125rem; color: #991b1b;">
+          <strong>⚠️ No auth token required.</strong> The registry allows anonymous read access. If npm prompts for credentials, an old token in <code style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 4px;">~/.npmrc</code> is causing the issue.
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════════════════════
            STEP 1: INSTALL
            ═══════════════════════════════════════════════════════════════════════════════ -->
       <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(16, 185, 129, 0.02)); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid rgba(16, 185, 129, 0.15);">
@@ -177,6 +201,30 @@ document.<span style="color: #dcdcaa;">documentElement</span>.<span style="color
       <p style="margin: 0 0 2rem; opacity: 0.85;">Get the Maximus Design System installed in your project</p>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.2); margin: 0 0 2rem;" />
+
+      <!-- ═══════════════════════════════════════════════════════════════════════════════
+           PREREQUISITES
+           ═══════════════════════════════════════════════════════════════════════════════ -->
+      <div style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(239, 68, 68, 0.02)); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid rgba(239, 68, 68, 0.15);">
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+          <div style="width: 32px; height: 32px; background: #ef4444; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.875rem;">!</div>
+          <h2 style="margin: 0; font-size: 1.25rem; font-weight: 700;">Before you start</h2>
+        </div>
+        
+        <p style="margin: 0 0 1rem; font-size: 0.875rem;"><strong>1. Connect to Maximus VPN</strong> — JFrog Artifactory is internal-only and not accessible from public internet.</p>
+
+        <p style="margin: 0 0 0.5rem; font-size: 0.875rem;"><strong>2. Clear any old @mms registry config</strong> — Run this command to remove stale entries:</p>
+
+        <pre style="background: #1e1e1e; color: #d4d4d4; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.8125rem; margin-bottom: 1rem; border: 1px solid rgba(128,128,128,0.2);"><code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;"><span style="color: #6a9955;"># Check for existing @mms config (if no output, you're clean)</span>
+<span style="color: #569cd6;">grep</span> <span style="color: #ce9178;">"@mms"</span> ~/.npmrc
+
+<span style="color: #6a9955;"># If any lines appear, remove them:</span>
+<span style="color: #569cd6;">sed</span> -i <span style="color: #ce9178;">''</span> <span style="color: #ce9178;">'/@mms/d'</span> ~/.npmrc</code></pre>
+
+        <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; font-size: 0.8125rem; color: #991b1b;">
+          <strong>⚠️ No auth token required.</strong> The registry allows anonymous read access. If npm prompts for credentials, an old token in <code style="background: rgba(0,0,0,0.1); padding: 2px 6px; border-radius: 4px;">~/.npmrc</code> is causing the issue.
+        </div>
+      </div>
 
       <!-- ═══════════════════════════════════════════════════════════════════════════════
            STEP 1: INSTALL

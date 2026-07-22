@@ -552,15 +552,17 @@
   }
 </script>
 
-    <script type="module" crossorigin src="./assets/iframe-t5oeRteW.js"></script>
+    <script type="module" crossorigin src="./assets/iframe--zZGbKii.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-DaJ6WEGw.js">
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-si3HNj2m.js">
     <link rel="modulepreload" crossorigin href="./assets/lit-aQ4dERgF.js">
     <link rel="modulepreload" crossorigin href="./assets/chunk-LCHBOIHN-CtiY1LDi.js">
     <link rel="modulepreload" crossorigin href="./assets/chunk-A242L54C-BXJjN5h-.js">
     <link rel="modulepreload" crossorigin href="./assets/docs-tools-CsVml_Ha.js">
-    <link rel="modulepreload" crossorigin href="./assets/mms-icon.component-C_2KtjvF.js">
-    <link rel="stylesheet" crossorigin href="./assets/iframe-Dbl4A7jJ.css">
+    <link rel="modulepreload" crossorigin href="./assets/decorate-ClfqJe3w.js">
+    <link rel="modulepreload" crossorigin href="./assets/mms-icon.component-zkSegWpV.js">
+    <link rel="modulepreload" crossorigin href="./assets/if-defined-C8GHsg_z.js">
+    <link rel="stylesheet" crossorigin href="./assets/iframe-rpcKuBA3.css">
   </head>
 
   <body>
@@ -650,6 +652,17 @@
   body[data-sb-dark="true"] button {
     color: #ffffff !important;
     background-color: transparent !important;
+  }
+
+  /* Args table category section headers — screen-reader-only buttons must stay hidden */
+  body[data-sb-dark="true"] tr[title^="Hide "] td button,
+  body[data-sb-dark="true"] tr[title^="Show "] td button {
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    width: 1px !important;
   }
 
   /* Canvas preview block border — near-invisible black border must flip to white in dark mode */

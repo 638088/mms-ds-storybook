@@ -1069,7 +1069,7 @@ npm install @mms/theme-va-gov
       <pre style="${s.monoSm} background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; margin-bottom: 1.5rem;">
 .button-primary {
   background: var(--color-action-solid);
-  color: var(--color-text-on-emphasis);
+  color: var(--color-text-on-primary);
 }
 
 .button-primary:hover {
@@ -1908,7 +1908,7 @@ npm install @mms/theme-va-gov
       <pre style="\${t.monoSm} background: rgba(128,128,128,0.08); padding: 1rem; border-radius: 6px; overflow-x: auto; margin-bottom: 1.5rem;">
 .button-primary {
   background: var(--color-action-solid);
-  color: var(--color-text-on-emphasis);
+  color: var(--color-text-on-primary);
 }
 
 .button-primary:hover {

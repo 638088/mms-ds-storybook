@@ -1,0 +1,11 @@
+import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{d as t,f as n,p as r,t as i,u as a}from"./lit-aQ4dERgF.js";var o,s=e((()=>{o=e=>(t,n)=>{n===void 0?customElements.define(e,t):n.addInitializer(()=>{customElements.define(e,t)})}}));function c(e){return(t,n)=>typeof n==`object`?u(e,t,n):((e,t,n)=>{let r=t.hasOwnProperty(n);return t.constructor.createProperty(n,e),r?Object.getOwnPropertyDescriptor(t,n):void 0})(e,t,n)}var l,u,d=e((()=>{t(),l={attribute:!0,type:String,converter:n,reflect:!1,hasChanged:a},u=(e=l,t,n)=>{let{kind:r,metadata:i}=n,a=globalThis.litPropertyMetadata.get(i);if(a===void 0&&globalThis.litPropertyMetadata.set(i,a=new Map),r===`setter`&&((e=Object.create(e)).wrapped=!0),a.set(n.name,e),r===`accessor`){let{name:r}=n;return{set(n){let i=t.get.call(this);t.set.call(this,n),this.requestUpdate(r,i,e,!0,n)},init(t){return t!==void 0&&this.C(r,void 0,e,t),t}}}if(r===`setter`){let{name:r}=n;return function(n){let i=this[r];t.call(this,n),this.requestUpdate(r,i,e,!0,n)}}throw Error(`Unsupported decorator location: `+r)}}));function f(e){return c({...e,state:!0,attribute:!1})}var p=e((()=>{d()})),m=e((()=>{})),h=e((()=>{})),g=e((()=>{})),_=e((()=>{})),v=e((()=>{})),y=e((()=>{})),b=e((()=>{s(),d(),p(),m(),h(),g(),_(),v(),y()})),x,S=e((()=>{i(),x=r`
+  :focus-visible {
+    outline: var(--focus-ring-width) var(--focus-ring-style) var(--focus-ring-color);
+    outline-offset: var(--focus-ring-offset);
+  }
+`,r`
+  :focus-visible {
+    outline: var(--focus-ring-width) var(--focus-ring-style) var(--focus-ring-color);
+    outline-offset: var(--focus-ring-inset-offset);
+  }
+`}));function C(e,t,n,r){var i=arguments.length,a=i<3?t:r===null?r=Object.getOwnPropertyDescriptor(t,n):r,o;if(typeof Reflect==`object`&&typeof Reflect.decorate==`function`)a=Reflect.decorate(e,t,n,r);else for(var s=e.length-1;s>=0;s--)(o=e[s])&&(a=(i<3?o(a):i>3?o(t,n,a):o(t,n))||a);return i>3&&a&&Object.defineProperty(t,n,a),a}var w=e((()=>{}));export{b as a,d as c,o as d,S as i,c as l,w as n,p as o,x as r,f as s,C as t,s as u};
