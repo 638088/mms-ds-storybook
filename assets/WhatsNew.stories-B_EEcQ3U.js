@@ -17,7 +17,9 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      ${a(`v0.13.1 — Pre-release — 2026-07-22`,!0,[{heading:`UX improvements`,items:[`Hide Storybook addon panel by default — uses Storybook 10 layoutCustomisations.showPanel() API (DS-124)`]},{heading:`Platform tooling`,items:[`Updated /publish-npm skill with VPN connectivity check and verification gates`]}])}
+      ${a(`v0.14.0 — Pre-release — 2026-07-22`,!0,[{heading:`Components`,items:[`mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)`]},{heading:`Testing`,items:[`Added dedicated a11y test suite with 14 Playwright + axe-core tests for radio-group`,`Extracted shared a11y utilities to tests/a11y-utils.ts for Playwright compatibility`]}])}
+
+      ${a(`v0.13.1 — Pre-release — 2026-07-22`,!1,[{heading:`UX improvements`,items:[`Hide Storybook addon panel by default — uses Storybook 10 layoutCustomisations.showPanel() API (DS-124)`]},{heading:`Platform tooling`,items:[`Updated /publish-npm skill with VPN connectivity check and verification gates`]}])}
 
       ${a(`v0.13.0 — Pre-release — 2026-07-22`,!1,[{heading:`Components`,items:[`mms-radio — single-selection radio button, 4 color schemes, 3 sizes, 67 unit tests (DS-049)`,`mms-checkbox-group — group wrapper with tooltip shell, density support, 45 unit tests (DS-050)`,`mms-checkbox — pixel-perfect indicators, indeterminate state, 66 unit tests (DS-051)`]},{heading:`Accessibility`,items:[`WCAG 1.4.11 neutral-7 fix — form control borders now meet 3:1 contrast ratio`,`Accessibility documentation added to Radio, Checkbox, and CheckboxGroup Overviews`]},{heading:`Bug fixes`,items:[`Fixed sr-only buttons visible in dark mode args table section headers (DS-123)`,`Fixed tree-shaking of mms-icon-gallery in production build`]}])}
 
@@ -62,7 +64,15 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      \${entry('v0.13.1 — Pre-release — 2026-07-22', true, [{
+      \${entry('v0.14.0 — Pre-release — 2026-07-22', true, [{
+    heading: 'Components',
+    items: ['mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)']
+  }, {
+    heading: 'Testing',
+    items: ['Added dedicated a11y test suite with 14 Playwright + axe-core tests for radio-group', 'Extracted shared a11y utilities to tests/a11y-utils.ts for Playwright compatibility']
+  }])}
+
+      \${entry('v0.13.1 — Pre-release — 2026-07-22', false, [{
     heading: 'UX improvements',
     items: ['Hide Storybook addon panel by default — uses Storybook 10 layoutCustomisations.showPanel() API (DS-124)']
   }, {
