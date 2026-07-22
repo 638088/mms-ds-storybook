@@ -3,7 +3,7 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
 
       <h1 style="margin: 0 0 0.25rem; font-size: 2rem; font-weight: 700;">MMS Design System Platform</h1>
       <p style="margin: 0 0 0.25rem; opacity: 0.85;">A governed, themeable, WCAG-compliant component and token platform for government client engagements.</p>
-      <p style="margin: 0 0 2rem; font-size: 0.875rem; opacity: 0.65;"><strong>Version:</strong> 0.13.0 &nbsp;|&nbsp; <strong>Status:</strong> In development</p>
+      <p style="margin: 0 0 2rem; font-size: 0.875rem; opacity: 0.65;"><strong>Version:</strong> 0.13.1 &nbsp;|&nbsp; <strong>Status:</strong> In development</p>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.2); margin: 0 0 2rem;" />
 
@@ -33,7 +33,7 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
 
       <h1 style="margin: 0 0 0.25rem; font-size: 2rem; font-weight: 700;">MMS Design System Platform</h1>
       <p style="margin: 0 0 0.25rem; opacity: 0.85;">A governed, themeable, WCAG-compliant component and token platform for government client engagements.</p>
-      <p style="margin: 0 0 2rem; font-size: 0.875rem; opacity: 0.65;"><strong>Version:</strong> 0.13.0 &nbsp;|&nbsp; <strong>Status:</strong> In development</p>
+      <p style="margin: 0 0 2rem; font-size: 0.875rem; opacity: 0.65;"><strong>Version:</strong> 0.13.1 &nbsp;|&nbsp; <strong>Status:</strong> In development</p>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.2); margin: 0 0 2rem;" />
 
