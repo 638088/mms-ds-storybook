@@ -17,7 +17,9 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      ${a(`v0.15.0 — Pre-release — 2026-07-28`,!0,[{heading:`Components`,items:[`mms-select — Native select dropdown with placeholder styling, size variants, validation states (DS-053)`,`mms-text-field — Text input with 8 mask types (phone, SSN, email, currency, date, measurement, count, protected), icon support, character counter (DS-048)`]},{heading:`Tokens`,items:[`Added --color-text-placeholder semantic token (#757575 light / #8a8a8a dark) — WCAG AA 4.5:1+ contrast`,`Added --neutral-light-placeholder and --neutral-dark-placeholder primitives`]},{heading:`UX Enhancements`,items:[`Placeholder text darkens on hover to signal interactivity (text-field + select)`,`Icon controls changed to dropdowns in Storybook (48 curated form-field icons)`]},{heading:`Platform Tooling`,items:[`Updated /commit workflow: skill creates approval flag automatically (no manual touch required)`]}])}
+      ${a(`v0.15.1 — Pre-release — 2026-07-28`,!0,[{heading:`Architecture`,items:[`CSS is now source of truth — removed Style Dictionary pre-hooks that silently overwrote committed CSS`,`Archived tokens/*.json files (18 files) — kept locally for Figma export reference`,`Added --color-text-placeholder token to all 6 theme files via proper CSS editing`]},{heading:`Breaking Change`,items:[`npm run build-tokens is deprecated — CSS files are edited directly`]}])}
+
+      ${a(`v0.15.0 — Pre-release — 2026-07-28`,!1,[{heading:`Components`,items:[`mms-select — Native select dropdown with placeholder styling, size variants, validation states (DS-053)`,`mms-text-field — Text input with 8 mask types (phone, SSN, email, currency, date, measurement, count, protected), icon support, character counter (DS-048)`]},{heading:`Tokens`,items:[`Added --color-text-placeholder semantic token (#757575 light / #8a8a8a dark) — WCAG AA 4.5:1+ contrast`,`Added --neutral-light-placeholder and --neutral-dark-placeholder primitives`]},{heading:`UX Enhancements`,items:[`Placeholder text darkens on hover to signal interactivity (text-field + select)`,`Icon controls changed to dropdowns in Storybook (48 curated form-field icons)`]},{heading:`Platform Tooling`,items:[`Updated /commit workflow: skill creates approval flag automatically (no manual touch required)`]}])}
 
       ${a(`v0.14.0 — Pre-release — 2026-07-22`,!1,[{heading:`Components`,items:[`mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)`]},{heading:`Testing`,items:[`Added dedicated a11y test suite with 14 Playwright + axe-core tests for radio-group`,`Extracted shared a11y utilities to tests/a11y-utils.ts for Playwright compatibility`]}])}
 
@@ -66,7 +68,15 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      \${entry('v0.15.0 — Pre-release — 2026-07-28', true, [{
+      \${entry('v0.15.1 — Pre-release — 2026-07-28', true, [{
+    heading: 'Architecture',
+    items: ['CSS is now source of truth — removed Style Dictionary pre-hooks that silently overwrote committed CSS', 'Archived tokens/*.json files (18 files) — kept locally for Figma export reference', 'Added --color-text-placeholder token to all 6 theme files via proper CSS editing']
+  }, {
+    heading: 'Breaking Change',
+    items: ['npm run build-tokens is deprecated — CSS files are edited directly']
+  }])}
+
+      \${entry('v0.15.0 — Pre-release — 2026-07-28', false, [{
     heading: 'Components',
     items: ['mms-select — Native select dropdown with placeholder styling, size variants, validation states (DS-053)', 'mms-text-field — Text input with 8 mask types (phone, SSN, email, currency, date, measurement, count, protected), icon support, character counter (DS-048)']
   }, {
