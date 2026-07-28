@@ -1,4 +1,4 @@
-import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{t as i}from"./iframe-CFCnNgIA.js";var a=t({Overview:()=>d,PlaygroundStory:()=>f,__namedExportsOrder:()=>p,default:()=>s}),o,s,c,l,u,d,f,p,m=e((()=>{r(),i(),o=[``,`arrow-right`,`arrow-left`,`arrow-up`,`arrow-up-right`,`arrow-square-out`,`caret-right`,`caret-left`,`download`,`upload`,`export`,`envelope`,`phone`,`info`,`question`,`file-text`,`file-pdf`,`lock`,`globe`,`link`],s={title:`Actions/Link`,tags:[`!autodocs`]},c={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},l=`680px`,u=`960px`,d={name:`Overview`,render:()=>n`
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{t as i}from"./iframe-B7Vjsuza.js";var a=t({Overview:()=>d,PlaygroundStory:()=>f,__namedExportsOrder:()=>p,default:()=>s}),o,s,c,l,u,d,f,p,m=e((()=>{r(),i(),o=[``,`arrow-right`,`arrow-left`,`arrow-up`,`arrow-up-right`,`arrow-square-out`,`caret-right`,`caret-left`,`download`,`upload`,`export`,`envelope`,`phone`,`info`,`question`,`file-text`,`file-pdf`,`lock`,`globe`,`link`],s={title:`Actions/Link`,tags:[`!autodocs`]},c={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},l=`680px`,u=`960px`,d={name:`Overview`,render:()=>n`
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${u}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
 
       <!-- Header -->
@@ -120,14 +120,82 @@ import { Link } from 'react-router-dom';
 
       <!-- Accessibility -->
       <h2 style="${c.h2}">Accessibility</h2>
-      <ul style="${c.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
-        <li style="margin-bottom: 0.5rem;">When <code style="${c.monoSm}">href</code> is provided, renders semantic <code style="${c.monoSm}">&lt;a&gt;</code> element</li>
-        <li style="margin-bottom: 0.5rem;">When <code style="${c.monoSm}">href</code> is omitted, applies <code style="${c.monoSm}">role="link"</code> and keyboard handler</li>
-        <li style="margin-bottom: 0.5rem;">External links (<code style="${c.monoSm}">target="_blank"</code>) automatically add <code style="${c.monoSm}">rel="noopener noreferrer"</code></li>
-        <li style="margin-bottom: 0.5rem;">Focus ring meets WCAG 2.2 minimum area requirements</li>
-        <li style="margin-bottom: 0.5rem;">Link colors meet WCAG AA contrast (4.5:1+) on white backgrounds</li>
-        <li style="margin-bottom: 0.5rem;">Visited state provides clear visual distinction per WCAG 2.4.4</li>
+
+      <h3 style="${c.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.1</strong> Use of Color</td>
+            <td style="padding: 0.5rem 0.75rem;">Color not sole identifier</td>
+            <td style="padding: 0.5rem 0.75rem;">Underline available (<code style="${c.monoSm}">hover</code> or <code style="${c.monoSm}">always</code>) as secondary cue</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.3</strong> Contrast (Minimum)</td>
+            <td style="padding: 0.5rem 0.75rem;">4.5:1 for text</td>
+            <td style="padding: 0.5rem 0.75rem;">USWDS blue (#005EA2) meets 4.5:1 on white backgrounds</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.4</strong> Link Purpose</td>
+            <td style="padding: 0.5rem 0.75rem;">Purpose determinable from link text</td>
+            <td style="padding: 0.5rem 0.75rem;">Visited state provides visual distinction for previously visited</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring with sufficient contrast</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Inline focus ring never clipped by parent containers</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and role</td>
+            <td style="padding: 0.5rem 0.75rem;">Native <code style="${c.monoSm}">&lt;a&gt;</code> or <code style="${c.monoSm}">role="link"</code> when no href</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="${c.h3}">Screen Reader Behavior</h3>
+      <ul style="${c.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Focus:</strong> Announces link text and "link"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Visited:</strong> Some screen readers announce "visited link" based on browser history</li>
+        <li style="margin-bottom: 0.5rem;"><strong>External:</strong> When <code style="${c.monoSm}">target="_blank"</code>, consider adding "(opens in new tab)" to link text</li>
+        <li><strong>No href:</strong> Uses <code style="${c.monoSm}">role="link"</code> + <code style="${c.monoSm}">tabindex="0"</code> for router wrappers</li>
       </ul>
+
+      <h3 style="${c.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to / from the link</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Navigate to link destination</td>
+          </tr>
+        </tbody>
+      </table>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
@@ -289,14 +357,82 @@ import { Link } from 'react-router-dom';
 
       <!-- Accessibility -->
       <h2 style="\${t.h2}">Accessibility</h2>
-      <ul style="\${t.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
-        <li style="margin-bottom: 0.5rem;">When <code style="\${t.monoSm}">href</code> is provided, renders semantic <code style="\${t.monoSm}">&lt;a&gt;</code> element</li>
-        <li style="margin-bottom: 0.5rem;">When <code style="\${t.monoSm}">href</code> is omitted, applies <code style="\${t.monoSm}">role="link"</code> and keyboard handler</li>
-        <li style="margin-bottom: 0.5rem;">External links (<code style="\${t.monoSm}">target="_blank"</code>) automatically add <code style="\${t.monoSm}">rel="noopener noreferrer"</code></li>
-        <li style="margin-bottom: 0.5rem;">Focus ring meets WCAG 2.2 minimum area requirements</li>
-        <li style="margin-bottom: 0.5rem;">Link colors meet WCAG AA contrast (4.5:1+) on white backgrounds</li>
-        <li style="margin-bottom: 0.5rem;">Visited state provides clear visual distinction per WCAG 2.4.4</li>
+
+      <h3 style="\${t.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.1</strong> Use of Color</td>
+            <td style="padding: 0.5rem 0.75rem;">Color not sole identifier</td>
+            <td style="padding: 0.5rem 0.75rem;">Underline available (<code style="\${t.monoSm}">hover</code> or <code style="\${t.monoSm}">always</code>) as secondary cue</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.3</strong> Contrast (Minimum)</td>
+            <td style="padding: 0.5rem 0.75rem;">4.5:1 for text</td>
+            <td style="padding: 0.5rem 0.75rem;">USWDS blue (#005EA2) meets 4.5:1 on white backgrounds</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.4</strong> Link Purpose</td>
+            <td style="padding: 0.5rem 0.75rem;">Purpose determinable from link text</td>
+            <td style="padding: 0.5rem 0.75rem;">Visited state provides visual distinction for previously visited</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring with sufficient contrast</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Inline focus ring never clipped by parent containers</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and role</td>
+            <td style="padding: 0.5rem 0.75rem;">Native <code style="\${t.monoSm}">&lt;a&gt;</code> or <code style="\${t.monoSm}">role="link"</code> when no href</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="\${t.h3}">Screen Reader Behavior</h3>
+      <ul style="\${t.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Focus:</strong> Announces link text and "link"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Visited:</strong> Some screen readers announce "visited link" based on browser history</li>
+        <li style="margin-bottom: 0.5rem;"><strong>External:</strong> When <code style="\${t.monoSm}">target="_blank"</code>, consider adding "(opens in new tab)" to link text</li>
+        <li><strong>No href:</strong> Uses <code style="\${t.monoSm}">role="link"</code> + <code style="\${t.monoSm}">tabindex="0"</code> for router wrappers</li>
       </ul>
+
+      <h3 style="\${t.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to / from the link</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Navigate to link destination</td>
+          </tr>
+        </tbody>
+      </table>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 

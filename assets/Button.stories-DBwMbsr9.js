@@ -1,4 +1,4 @@
-import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{n as i}from"./iframe-CFCnNgIA.js";import{n as a,t as o}from"./theme-constraints-BagCRQzo.js";var s=t({Overview:()=>p,PlaygroundStory:()=>m,__namedExportsOrder:()=>h,default:()=>l}),c,l,u,d,f,p,m,h,g=e((()=>{r(),i(),o(),c=`.arrow-left.arrow-right.arrow-up.arrow-down.arrow-clockwise.arrow-square-out.caret-left.caret-right.caret-up.caret-down.plus.minus.x.check.pencil.trash.copy.upload.download.export.floppy-disk.printer.paperclip.play.pause.stop.magnifying-glass.funnel.gear.envelope.phone.share-network.user.sign-in.sign-out.lock.lock-open.eye.eye-slash.calendar.shopping-cart.heart.star.question.info`.split(`.`),l={title:`Actions/Button`,tags:[`!autodocs`]},u={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},d=`680px`,f=`960px`,p={name:`Overview`,render:()=>n`
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-aQ4dERgF.js";import{n as i}from"./iframe-B7Vjsuza.js";import{n as a,t as o}from"./theme-constraints-BagCRQzo.js";var s=t({Overview:()=>p,PlaygroundStory:()=>m,__namedExportsOrder:()=>h,default:()=>l}),c,l,u,d,f,p,m,h,g=e((()=>{r(),i(),o(),c=`.arrow-left.arrow-right.arrow-up.arrow-down.arrow-clockwise.arrow-square-out.caret-left.caret-right.caret-up.caret-down.plus.minus.x.check.pencil.trash.copy.upload.download.export.floppy-disk.printer.paperclip.play.pause.stop.magnifying-glass.funnel.gear.envelope.phone.share-network.user.sign-in.sign-out.lock.lock-open.eye.eye-slash.calendar.shopping-cart.heart.star.question.info`.split(`.`),l={title:`Actions/Button`,tags:[`!autodocs`]},u={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},d=`680px`,f=`960px`,p={name:`Overview`,render:()=>n`
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${f}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
 
       <!-- Header -->
@@ -133,13 +133,86 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
 
       <!-- Accessibility -->
       <h2 style="${u.h2}">Accessibility</h2>
-      <ul style="${u.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
-        <li style="margin-bottom: 0.5rem;">Uses native <code style="${u.monoSm}">&lt;button&gt;</code> element for full keyboard support</li>
-        <li style="margin-bottom: 0.5rem;">Focus ring meets WCAG 2.2 minimum area requirements (2px offset)</li>
-        <li style="margin-bottom: 0.5rem;">Disabled state uses <code style="${u.monoSm}">aria-disabled</code> to maintain focusability for screen readers</li>
-        <li style="margin-bottom: 0.5rem;">Text contrast meets WCAG AA (4.5:1 against background)</li>
-        <li style="margin-bottom: 0.5rem;">Non-text contrast (fill, stroke, icons) meets WCAG 1.4.11 (3:1 against background)</li>
+
+      <h3 style="${u.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.3</strong> Contrast (Minimum)</td>
+            <td style="padding: 0.5rem 0.75rem;">4.5:1 for text</td>
+            <td style="padding: 0.5rem 0.75rem;">Label text meets 4.5:1 against button background</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
+            <td style="padding: 0.5rem 0.75rem;">Button fill/stroke meets 3:1 against page background</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring with offset for clear visibility</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Focus ring renders outside button bounds, never clipped</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
+            <td style="padding: 0.5rem 0.75rem;">All sizes exceed minimum (sm: 32px, md: 40px, lg: 48px)</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
+            <td style="padding: 0.5rem 0.75rem;">Native <code style="${u.monoSm}">&lt;button&gt;</code> + <code style="${u.monoSm}">aria-disabled</code> for disabled state</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="${u.h3}">Screen Reader Behavior</h3>
+      <ul style="${u.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Focus:</strong> Announces label text and "button"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Disabled:</strong> Announces "dimmed" or "unavailable" (varies by screen reader)</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Icon-only:</strong> Uses <code style="${u.monoSm}">label</code> as <code style="${u.monoSm}">aria-label</code> — always provide a label</li>
+        <li><strong>Loading:</strong> <code style="${u.monoSm}">aria-busy="true"</code> indicates processing state</li>
       </ul>
+
+      <h3 style="${u.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to / from the button</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Activate the button</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Space</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Activate the button</td>
+          </tr>
+        </tbody>
+      </table>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
@@ -337,13 +410,86 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}f
 
       <!-- Accessibility -->
       <h2 style="\${t.h2}">Accessibility</h2>
-      <ul style="\${t.bodySm} opacity: 0.85; margin: 0 0 2rem; padding-left: 1.25rem;">
-        <li style="margin-bottom: 0.5rem;">Uses native <code style="\${t.monoSm}">&lt;button&gt;</code> element for full keyboard support</li>
-        <li style="margin-bottom: 0.5rem;">Focus ring meets WCAG 2.2 minimum area requirements (2px offset)</li>
-        <li style="margin-bottom: 0.5rem;">Disabled state uses <code style="\${t.monoSm}">aria-disabled</code> to maintain focusability for screen readers</li>
-        <li style="margin-bottom: 0.5rem;">Text contrast meets WCAG AA (4.5:1 against background)</li>
-        <li style="margin-bottom: 0.5rem;">Non-text contrast (fill, stroke, icons) meets WCAG 1.4.11 (3:1 against background)</li>
+
+      <h3 style="\${t.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.3</strong> Contrast (Minimum)</td>
+            <td style="padding: 0.5rem 0.75rem;">4.5:1 for text</td>
+            <td style="padding: 0.5rem 0.75rem;">Label text meets 4.5:1 against button background</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
+            <td style="padding: 0.5rem 0.75rem;">Button fill/stroke meets 3:1 against page background</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring with offset for clear visibility</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Focus ring renders outside button bounds, never clipped</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
+            <td style="padding: 0.5rem 0.75rem;">All sizes exceed minimum (sm: 32px, md: 40px, lg: 48px)</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
+            <td style="padding: 0.5rem 0.75rem;">Native <code style="\${t.monoSm}">&lt;button&gt;</code> + <code style="\${t.monoSm}">aria-disabled</code> for disabled state</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="\${t.h3}">Screen Reader Behavior</h3>
+      <ul style="\${t.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Focus:</strong> Announces label text and "button"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Disabled:</strong> Announces "dimmed" or "unavailable" (varies by screen reader)</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Icon-only:</strong> Uses <code style="\${t.monoSm}">label</code> as <code style="\${t.monoSm}">aria-label</code> — always provide a label</li>
+        <li><strong>Loading:</strong> <code style="\${t.monoSm}">aria-busy="true"</code> indicates processing state</li>
       </ul>
+
+      <h3 style="\${t.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to / from the button</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Activate the button</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Space</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Activate the button</td>
+          </tr>
+        </tbody>
+      </table>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 

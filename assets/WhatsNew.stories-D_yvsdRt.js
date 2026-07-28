@@ -17,7 +17,9 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      ${a(`v0.14.0 — Pre-release — 2026-07-22`,!0,[{heading:`Components`,items:[`mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)`]},{heading:`Testing`,items:[`Added dedicated a11y test suite with 14 Playwright + axe-core tests for radio-group`,`Extracted shared a11y utilities to tests/a11y-utils.ts for Playwright compatibility`]}])}
+      ${a(`v0.15.0 — Pre-release — 2026-07-28`,!0,[{heading:`Components`,items:[`mms-select — Native select dropdown with placeholder styling, size variants, validation states (DS-053)`,`mms-text-field — Text input with 8 mask types (phone, SSN, email, currency, date, measurement, count, protected), icon support, character counter (DS-048)`]},{heading:`Tokens`,items:[`Added --color-text-placeholder semantic token (#757575 light / #8a8a8a dark) — WCAG AA 4.5:1+ contrast`,`Added --neutral-light-placeholder and --neutral-dark-placeholder primitives`]},{heading:`UX Enhancements`,items:[`Placeholder text darkens on hover to signal interactivity (text-field + select)`,`Icon controls changed to dropdowns in Storybook (48 curated form-field icons)`]},{heading:`Platform Tooling`,items:[`Updated /commit workflow: skill creates approval flag automatically (no manual touch required)`]}])}
+
+      ${a(`v0.14.0 — Pre-release — 2026-07-22`,!1,[{heading:`Components`,items:[`mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)`]},{heading:`Testing`,items:[`Added dedicated a11y test suite with 14 Playwright + axe-core tests for radio-group`,`Extracted shared a11y utilities to tests/a11y-utils.ts for Playwright compatibility`]}])}
 
       ${a(`v0.13.1 — Pre-release — 2026-07-22`,!1,[{heading:`UX improvements`,items:[`Hide Storybook addon panel by default — uses Storybook 10 layoutCustomisations.showPanel() API (DS-124)`]},{heading:`Platform tooling`,items:[`Updated /publish-npm skill with VPN connectivity check and verification gates`]}])}
 
@@ -64,7 +66,21 @@ import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";import{s as t,t as n}from"./l
       <h1 style="margin: 0 0 0.25rem; font-size: 1.75rem; font-weight: 700;">What's new</h1>
       <p style="margin: 0 0 2.5rem; opacity: 0.85; font-size: 0.875rem;">Version history for the Maximus Design System Platform. Updated after every PR merge.</p>
 
-      \${entry('v0.14.0 — Pre-release — 2026-07-22', true, [{
+      \${entry('v0.15.0 — Pre-release — 2026-07-28', true, [{
+    heading: 'Components',
+    items: ['mms-select — Native select dropdown with placeholder styling, size variants, validation states (DS-053)', 'mms-text-field — Text input with 8 mask types (phone, SSN, email, currency, date, measurement, count, protected), icon support, character counter (DS-048)']
+  }, {
+    heading: 'Tokens',
+    items: ['Added --color-text-placeholder semantic token (#757575 light / #8a8a8a dark) — WCAG AA 4.5:1+ contrast', 'Added --neutral-light-placeholder and --neutral-dark-placeholder primitives']
+  }, {
+    heading: 'UX Enhancements',
+    items: ['Placeholder text darkens on hover to signal interactivity (text-field + select)', 'Icon controls changed to dropdowns in Storybook (48 curated form-field icons)']
+  }, {
+    heading: 'Platform Tooling',
+    items: ['Updated /commit workflow: skill creates approval flag automatically (no manual touch required)']
+  }])}
+
+      \${entry('v0.14.0 — Pre-release — 2026-07-22', false, [{
     heading: 'Components',
     items: ['mms-radio-group — Group wrapper for mms-radio elements with WAI-ARIA radio group pattern, arrow key navigation, single-selection behavior (DS-052)']
   }, {

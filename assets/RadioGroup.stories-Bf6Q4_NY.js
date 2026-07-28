@@ -384,37 +384,93 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
 
       <!-- Accessibility -->
       <h2 style="${b.h2}">Accessibility</h2>
-      <p style="${b.bodySm} opacity: 0.85; max-width: ${x}; margin-bottom: 1.5rem;">
-        Radio groups follow the WAI-ARIA Radio Group pattern for proper screen reader and keyboard support.
-      </p>
 
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+      <h3 style="${b.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
         <thead>
           <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.75rem 1rem; font-weight: 600;">Behavior</th>
-            <th style="text-align: left; padding: 0.75rem 1rem; font-weight: 600;">Description</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
           </tr>
         </thead>
         <tbody>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">ARIA</td>
-            <td style="padding: 0.75rem 1rem;"><code style="${b.monoSm}">role="radiogroup"</code> with <code style="${b.monoSm}">aria-labelledby</code> pointing to the group label</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
+            <td style="padding: 0.5rem 0.75rem;">Related controls grouped programmatically</td>
+            <td style="padding: 0.5rem 0.75rem;"><code style="${b.monoSm}">role="radiogroup"</code> with <code style="${b.monoSm}">aria-labelledby</code> pointing to group label</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Tab</td>
-            <td style="padding: 0.75rem 1rem;">Focuses selected radio (or first if none selected); group acts as single tab stop</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
+            <td style="padding: 0.5rem 0.75rem;">Radio borders meet 3.3:1 against surface background</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Arrow keys</td>
-            <td style="padding: 0.75rem 1rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↑</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↓</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">←</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">→</kbd> move selection with wrap-around</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring around each radio indicator</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Space / Enter</td>
-            <td style="padding: 0.75rem 1rem;">Selects focused radio (if none selected, selects first)</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Focus rings never clipped by group container</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
+            <td style="padding: 0.5rem 0.75rem;">Click targets include labels; indicators ≥24px for all sizes</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>3.3.1</strong> Error Identification</td>
+            <td style="padding: 0.5rem 0.75rem;">Errors described in text</td>
+            <td style="padding: 0.5rem 0.75rem;">Group error message with <code style="${b.monoSm}">role="alert"</code> for immediate announcement</td>
           </tr>
           <tr>
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Error handling</td>
-            <td style="padding: 0.75rem 1rem;">Group uses <code style="${b.monoSm}">aria-invalid</code> and <code style="${b.monoSm}">aria-describedby</code> linking to error message with <code style="${b.monoSm}">role="alert"</code></td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
+            <td style="padding: 0.5rem 0.75rem;">Each radio uses <code style="${b.monoSm}">role="radio"</code> + <code style="${b.monoSm}">aria-checked</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="${b.h3}">Screen Reader Behavior</h3>
+      <ul style="${b.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Group entry:</strong> Announces group label, then "radio group"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Radio focus:</strong> Announces radio label, position (e.g., "1 of 3"), and selection state</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Required:</strong> Announces "required" when <code style="${b.monoSm}">required</code> prop is set on group</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Error:</strong> Immediately announces group error message via <code style="${b.monoSm}">role="alert"</code></li>
+        <li><strong>Helper text:</strong> Read as part of group description via <code style="${b.monoSm}">aria-describedby</code></li>
+      </ul>
+
+      <h3 style="${b.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to/from the radio group (single tab stop)</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↑</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↓</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">←</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">→</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move selection between radios with wrap-around</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Space</kbd> / <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Select focused radio (if none selected, selects first)</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Home</kbd> / <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">End</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Jump to first / last radio in group</td>
           </tr>
         </tbody>
       </table>
@@ -694,37 +750,93 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
 
       <!-- Accessibility -->
       <h2 style="\${t.h2}">Accessibility</h2>
-      <p style="\${t.bodySm} opacity: 0.85; max-width: \${PROSE_MAX}; margin-bottom: 1.5rem;">
-        Radio groups follow the WAI-ARIA Radio Group pattern for proper screen reader and keyboard support.
-      </p>
 
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+      <h3 style="\${t.h3}">WCAG 2.2 AA Compliance</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
         <thead>
           <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.75rem 1rem; font-weight: 600;">Behavior</th>
-            <th style="text-align: left; padding: 0.75rem 1rem; font-weight: 600;">Description</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
           </tr>
         </thead>
         <tbody>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">ARIA</td>
-            <td style="padding: 0.75rem 1rem;"><code style="\${t.monoSm}">role="radiogroup"</code> with <code style="\${t.monoSm}">aria-labelledby</code> pointing to the group label</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
+            <td style="padding: 0.5rem 0.75rem;">Related controls grouped programmatically</td>
+            <td style="padding: 0.5rem 0.75rem;"><code style="\${t.monoSm}">role="radiogroup"</code> with <code style="\${t.monoSm}">aria-labelledby</code> pointing to group label</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Tab</td>
-            <td style="padding: 0.75rem 1rem;">Focuses selected radio (or first if none selected); group acts as single tab stop</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
+            <td style="padding: 0.5rem 0.75rem;">Radio borders meet 3.3:1 against surface background</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Arrow keys</td>
-            <td style="padding: 0.75rem 1rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↑</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↓</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">←</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">→</kbd> move selection with wrap-around</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
+            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
+            <td style="padding: 0.5rem 0.75rem;">2px focus ring around each radio indicator</td>
           </tr>
           <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Space / Enter</td>
-            <td style="padding: 0.75rem 1rem;">Selects focused radio (if none selected, selects first)</td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
+            <td style="padding: 0.5rem 0.75rem;">Focus rings never clipped by group container</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
+            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
+            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
+            <td style="padding: 0.5rem 0.75rem;">Click targets include labels; indicators ≥24px for all sizes</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><strong>3.3.1</strong> Error Identification</td>
+            <td style="padding: 0.5rem 0.75rem;">Errors described in text</td>
+            <td style="padding: 0.5rem 0.75rem;">Group error message with <code style="\${t.monoSm}">role="alert"</code> for immediate announcement</td>
           </tr>
           <tr>
-            <td style="padding: 0.75rem 1rem; font-weight: 500;">Error handling</td>
-            <td style="padding: 0.75rem 1rem;">Group uses <code style="\${t.monoSm}">aria-invalid</code> and <code style="\${t.monoSm}">aria-describedby</code> linking to error message with <code style="\${t.monoSm}">role="alert"</code></td>
+            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
+            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
+            <td style="padding: 0.5rem 0.75rem;">Each radio uses <code style="\${t.monoSm}">role="radio"</code> + <code style="\${t.monoSm}">aria-checked</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="\${t.h3}">Screen Reader Behavior</h3>
+      <ul style="\${t.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+        <li style="margin-bottom: 0.5rem;"><strong>Group entry:</strong> Announces group label, then "radio group"</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Radio focus:</strong> Announces radio label, position (e.g., "1 of 3"), and selection state</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Required:</strong> Announces "required" when <code style="\${t.monoSm}">required</code> prop is set on group</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Error:</strong> Immediately announces group error message via <code style="\${t.monoSm}">role="alert"</code></li>
+        <li><strong>Helper text:</strong> Read as part of group description via <code style="\${t.monoSm}">aria-describedby</code></li>
+      </ul>
+
+      <h3 style="\${t.h3}">Keyboard Navigation</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; width: 140px;">Key</th>
+            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Tab</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move focus to/from the radio group (single tab stop)</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↑</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">↓</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">←</kbd> <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">→</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Move selection between radios with wrap-around</td>
+          </tr>
+          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Space</kbd> / <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Enter</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Select focused radio (if none selected, selects first)</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem 0.75rem;"><kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">Home</kbd> / <kbd style="padding: 0.125rem 0.375rem; background: rgba(128,128,128,0.1); border-radius: 3px; font-size: 0.75rem;">End</kbd></td>
+            <td style="padding: 0.5rem 0.75rem;">Jump to first / last radio in group</td>
           </tr>
         </tbody>
       </table>
