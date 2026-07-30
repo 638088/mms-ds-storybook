@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";function t(e,t){return(n[e]??[`onyx`]).includes(t)}var n,r=e((()=>{n={default:[`onyx`],maximus:[`primary`,`secondary`,`onyx`],"va-gov":[`primary`,`accent`,`onyx`]}}));export{t as n,r as t};
