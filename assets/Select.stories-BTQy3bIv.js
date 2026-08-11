@@ -1,4 +1,4 @@
-import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p as i,s as a,t as o}from"./lit-aQ4dERgF.js";import{a as s,f as c,m as l,n as u,o as d,r as f,t as p}from"./decorate-CFSc4vnv.js";import{t as m}from"./mms-icon.component-Cz1Jc6Sy.js";var h,g=e((()=>{o(),d(),s(),m(),u(),h=class extends r{constructor(...e){super(...e),this.label=``,this.value=``,this.placeholder=`Select an option`,this.options=[],this.name=``,this.state=`default`,this.disabled=!1,this.readonly=!1,this.error=!1,this.errorText=``,this.required=!1,this.helperText=``,this.showTooltip=!1,this.tooltipText=``,this.size=`md`}get iconSize(){switch(this.size){case`sm`:return`sm`;case`lg`:return`md`;default:return`sm`}}static{this.styles=[f,i`
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p as i,s as a,t as o}from"./lit-aQ4dERgF.js";import{a as s,f as c,m as l,n as u,o as d,r as f,t as p}from"./decorate-CFSc4vnv.js";import{t as m}from"./mms-icon.component-Cz1Jc6Sy.js";import{a as h,o as g,r as _,t as v}from"./a11y-outcome-BIVC7m09.js";var y,b=e((()=>{o(),d(),s(),m(),u(),y=class extends r{constructor(...e){super(...e),this.label=``,this.value=``,this.placeholder=`Select an option`,this.options=[],this.name=``,this.state=`default`,this.disabled=!1,this.readonly=!1,this.error=!1,this.errorText=``,this.required=!1,this.helperText=``,this.showTooltip=!1,this.tooltipText=``,this.size=`md`}get iconSize(){switch(this.size){case`sm`:return`sm`;case`lg`:return`md`;default:return`sm`}}static{this.styles=[f,i`
       /* ═══════════════════════════════════════════════════════════════════════
          HOST
          ═══════════════════════════════════════════════════════════════════════ */
@@ -334,12 +334,12 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
               ${this.errorText}
             </span>
           `:n}
-    `}},p([c({type:String})],h.prototype,`label`,void 0),p([c({type:String,reflect:!0})],h.prototype,`value`,void 0),p([c({type:String})],h.prototype,`placeholder`,void 0),p([c({type:Array})],h.prototype,`options`,void 0),p([c({type:String})],h.prototype,`name`,void 0),p([c({type:String,reflect:!0})],h.prototype,`state`,void 0),p([c({type:Boolean,reflect:!0})],h.prototype,`disabled`,void 0),p([c({type:Boolean,reflect:!0})],h.prototype,`readonly`,void 0),p([c({type:Boolean,reflect:!0})],h.prototype,`error`,void 0),p([c({type:String,attribute:`error-text`})],h.prototype,`errorText`,void 0),p([c({type:Boolean,reflect:!0})],h.prototype,`required`,void 0),p([c({type:String,attribute:`helper-text`})],h.prototype,`helperText`,void 0),p([c({type:Boolean,reflect:!0,attribute:`show-tooltip`})],h.prototype,`showTooltip`,void 0),p([c({type:String,attribute:`tooltip-text`})],h.prototype,`tooltipText`,void 0),p([c({type:String,reflect:!0})],h.prototype,`size`,void 0),h=p([l(`mms-select`)],h)})),_=t({Overview:()=>C,PlaygroundStory:()=>w,__namedExportsOrder:()=>T,default:()=>v}),v,y,b,x,S,C,w,T,E=e((()=>{o(),g(),v={title:`Forms/Select`,tags:[`!autodocs`]},y={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},b=`680px`,x=`960px`,S=[{value:`al`,label:`Alabama`},{value:`ak`,label:`Alaska`},{value:`az`,label:`Arizona`},{value:`ar`,label:`Arkansas`},{value:`ca`,label:`California`},{value:`co`,label:`Colorado`},{value:`ct`,label:`Connecticut`},{value:`de`,label:`Delaware`},{value:`dc`,label:`District of Columbia`},{value:`fl`,label:`Florida`},{value:`ga`,label:`Georgia`},{value:`hi`,label:`Hawaii`},{value:`id`,label:`Idaho`},{value:`il`,label:`Illinois`},{value:`in`,label:`Indiana`},{value:`ia`,label:`Iowa`},{value:`ks`,label:`Kansas`},{value:`ky`,label:`Kentucky`},{value:`la`,label:`Louisiana`},{value:`me`,label:`Maine`},{value:`md`,label:`Maryland`},{value:`ma`,label:`Massachusetts`},{value:`mi`,label:`Michigan`},{value:`mn`,label:`Minnesota`},{value:`ms`,label:`Mississippi`},{value:`mo`,label:`Missouri`},{value:`mt`,label:`Montana`},{value:`ne`,label:`Nebraska`},{value:`nv`,label:`Nevada`},{value:`nh`,label:`New Hampshire`},{value:`nj`,label:`New Jersey`},{value:`nm`,label:`New Mexico`},{value:`ny`,label:`New York`},{value:`nc`,label:`North Carolina`},{value:`nd`,label:`North Dakota`},{value:`oh`,label:`Ohio`},{value:`ok`,label:`Oklahoma`},{value:`or`,label:`Oregon`},{value:`pa`,label:`Pennsylvania`},{value:`ri`,label:`Rhode Island`},{value:`sc`,label:`South Carolina`},{value:`sd`,label:`South Dakota`},{value:`tn`,label:`Tennessee`},{value:`tx`,label:`Texas`},{value:`ut`,label:`Utah`},{value:`vt`,label:`Vermont`},{value:`va`,label:`Virginia`},{value:`wa`,label:`Washington`},{value:`wv`,label:`West Virginia`},{value:`wi`,label:`Wisconsin`},{value:`wy`,label:`Wyoming`}],C={name:`Overview`,render:()=>a`
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${x}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
+    `}},p([c({type:String})],y.prototype,`label`,void 0),p([c({type:String,reflect:!0})],y.prototype,`value`,void 0),p([c({type:String})],y.prototype,`placeholder`,void 0),p([c({type:Array})],y.prototype,`options`,void 0),p([c({type:String})],y.prototype,`name`,void 0),p([c({type:String,reflect:!0})],y.prototype,`state`,void 0),p([c({type:Boolean,reflect:!0})],y.prototype,`disabled`,void 0),p([c({type:Boolean,reflect:!0})],y.prototype,`readonly`,void 0),p([c({type:Boolean,reflect:!0})],y.prototype,`error`,void 0),p([c({type:String,attribute:`error-text`})],y.prototype,`errorText`,void 0),p([c({type:Boolean,reflect:!0})],y.prototype,`required`,void 0),p([c({type:String,attribute:`helper-text`})],y.prototype,`helperText`,void 0),p([c({type:Boolean,reflect:!0,attribute:`show-tooltip`})],y.prototype,`showTooltip`,void 0),p([c({type:String,attribute:`tooltip-text`})],y.prototype,`tooltipText`,void 0),p([c({type:String,reflect:!0})],y.prototype,`size`,void 0),y=p([l(`mms-select`)],y)})),x=t({Overview:()=>D,PlaygroundStory:()=>O,__namedExportsOrder:()=>k,default:()=>S}),S,C,w,T,E,D,O,k,A=e((()=>{o(),b(),h(),v(),S={title:`Forms/Select`,tags:[`!autodocs`]},C={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},w=`680px`,T=`960px`,E=[{value:`al`,label:`Alabama`},{value:`ak`,label:`Alaska`},{value:`az`,label:`Arizona`},{value:`ar`,label:`Arkansas`},{value:`ca`,label:`California`},{value:`co`,label:`Colorado`},{value:`ct`,label:`Connecticut`},{value:`de`,label:`Delaware`},{value:`dc`,label:`District of Columbia`},{value:`fl`,label:`Florida`},{value:`ga`,label:`Georgia`},{value:`hi`,label:`Hawaii`},{value:`id`,label:`Idaho`},{value:`il`,label:`Illinois`},{value:`in`,label:`Indiana`},{value:`ia`,label:`Iowa`},{value:`ks`,label:`Kansas`},{value:`ky`,label:`Kentucky`},{value:`la`,label:`Louisiana`},{value:`me`,label:`Maine`},{value:`md`,label:`Maryland`},{value:`ma`,label:`Massachusetts`},{value:`mi`,label:`Michigan`},{value:`mn`,label:`Minnesota`},{value:`ms`,label:`Mississippi`},{value:`mo`,label:`Missouri`},{value:`mt`,label:`Montana`},{value:`ne`,label:`Nebraska`},{value:`nv`,label:`Nevada`},{value:`nh`,label:`New Hampshire`},{value:`nj`,label:`New Jersey`},{value:`nm`,label:`New Mexico`},{value:`ny`,label:`New York`},{value:`nc`,label:`North Carolina`},{value:`nd`,label:`North Dakota`},{value:`oh`,label:`Ohio`},{value:`ok`,label:`Oklahoma`},{value:`or`,label:`Oregon`},{value:`pa`,label:`Pennsylvania`},{value:`ri`,label:`Rhode Island`},{value:`sc`,label:`South Carolina`},{value:`sd`,label:`South Dakota`},{value:`tn`,label:`Tennessee`},{value:`tx`,label:`Texas`},{value:`ut`,label:`Utah`},{value:`vt`,label:`Vermont`},{value:`va`,label:`Virginia`},{value:`wa`,label:`Washington`},{value:`wv`,label:`West Virginia`},{value:`wi`,label:`Wisconsin`},{value:`wy`,label:`Wyoming`}],D={name:`Overview`,render:()=>a`
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${T}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
 
       <!-- Header -->
-      <h1 style="${y.h1}">Select</h1>
-      <p style="${y.body} opacity: 0.85; max-width: ${b}; margin-bottom: 2rem;">
+      <h1 style="${C.h1}">Select</h1>
+      <p style="${C.body} opacity: 0.85; max-width: ${w}; margin-bottom: 2rem;">
         A single-selection dropdown using the native &lt;select&gt; element for built-in accessibility
         and keyboard navigation. Provides label, helper text, validation, and integrates with forms.
       </p>
@@ -347,23 +347,23 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Basic Usage -->
-      <h2 style="${y.h2}">Basic usage</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">Basic usage</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         Provide a label and options array. The select fills its container width by default.
       </p>
 
       <div style="margin-bottom: 2rem; max-width: 320px;">
         <mms-select 
           label="State"
-          .options=${S}
+          .options=${E}
         ></mms-select>
       </div>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- With Helper Text -->
-      <h2 style="${y.h2}">With helper text</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">With helper text</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         Helper text provides additional guidance below the select.
       </p>
 
@@ -371,15 +371,15 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
         <mms-select 
           label="State"
           helper-text="Select your state of residence."
-          .options=${S}
+          .options=${E}
         ></mms-select>
       </div>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- With Tooltip -->
-      <h2 style="${y.h2}">With tooltip</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">With tooltip</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         An info icon can be shown next to the label. <em style="opacity: 0.7;">(Tooltip dialog coming soon — icon is currently visual-only)</em>
       </p>
 
@@ -395,25 +395,25 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Required Field -->
-      <h2 style="${y.h2}">Required field</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
-        The <code style="${y.monoSm}">required</code> prop adds an asterisk indicator to the label.
+      <h2 style="${C.h2}">Required field</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
+        The <code style="${C.monoSm}">required</code> prop adds an asterisk indicator to the label.
       </p>
 
       <div style="margin-bottom: 2rem; max-width: 320px;">
         <mms-select 
           label="State of residence"
           required
-          .options=${S}
+          .options=${E}
         ></mms-select>
       </div>
 
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Error State -->
-      <h2 style="${y.h2}">Error state</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
-        The <code style="${y.monoSm}">error</code> prop displays validation feedback.
+      <h2 style="${C.h2}">Error state</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
+        The <code style="${C.monoSm}">error</code> prop displays validation feedback.
         Helper text is replaced by the error message when in error state.
       </p>
 
@@ -430,8 +430,8 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Readonly State -->
-      <h2 style="${y.h2}">Readonly state</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">Readonly state</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         Readonly displays the current value but prevents changes. Use when data should be visible but not editable.
       </p>
 
@@ -447,8 +447,8 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Disabled State -->
-      <h2 style="${y.h2}">Disabled state</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">Disabled state</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         Disabled prevents all interaction and dims the appearance.
       </p>
 
@@ -463,9 +463,9 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Size Variants -->
-      <h2 style="${y.h2}">Size variants</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
-        Three sizes are available: <code style="${y.monoSm}">sm</code>, <code style="${y.monoSm}">md</code> (default), and <code style="${y.monoSm}">lg</code>.
+      <h2 style="${C.h2}">Size variants</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
+        Three sizes are available: <code style="${C.monoSm}">sm</code>, <code style="${C.monoSm}">md</code> (default), and <code style="${C.monoSm}">lg</code>.
       </p>
 
       <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 320px; margin-bottom: 2rem;">
@@ -489,30 +489,30 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Width Behavior -->
-      <h2 style="${y.h2}">Width behavior</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
+      <h2 style="${C.h2}">Width behavior</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
         Select is block-level and fills its container width. Control width via the parent layout,
         not a component prop.
       </p>
 
       <div style="background: rgba(128,128,128,0.1); padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-        <p style="${y.caption} margin-bottom: 1rem;"><strong>Full-width (default)</strong></p>
+        <p style="${C.caption} margin-bottom: 1rem;"><strong>Full-width (default)</strong></p>
         <mms-select 
           label="Full width select"
-          .options=${S}
+          .options=${E}
         ></mms-select>
       </div>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
         <div style="background: rgba(128,128,128,0.1); padding: 1rem; border-radius: 8px;">
-          <p style="${y.caption} margin-bottom: 1rem;"><strong>Grid column 1</strong></p>
+          <p style="${C.caption} margin-bottom: 1rem;"><strong>Grid column 1</strong></p>
           <mms-select 
             label="State"
-            .options=${S}
+            .options=${E}
           ></mms-select>
         </div>
         <div style="background: rgba(128,128,128,0.1); padding: 1rem; border-radius: 8px;">
-          <p style="${y.caption} margin-bottom: 1rem;"><strong>Grid column 2</strong></p>
+          <p style="${C.caption} margin-bottom: 1rem;"><strong>Grid column 2</strong></p>
           <mms-select 
             label="Language"
             .options=${[{value:`en`,label:`English`},{value:`es`,label:`Spanish`}]}
@@ -521,8 +521,8 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       </div>
 
       <div style="width: 200px; background: rgba(128,128,128,0.1); padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-        <p style="${y.caption} margin-bottom: 0.25rem;"><strong>Narrow container (200px)</strong></p>
-        <p style="${y.caption} opacity: 0.7; margin-bottom: 1rem;">Sidebars, filter drawers, compact dialogs</p>
+        <p style="${C.caption} margin-bottom: 0.25rem;"><strong>Narrow container (200px)</strong></p>
+        <p style="${C.caption} opacity: 0.7; margin-bottom: 1rem;">Sidebars, filter drawers, compact dialogs</p>
         <mms-select 
           label="Constrained"
           .options=${[{value:`yes`,label:`Yes`},{value:`no`,label:`No`}]}
@@ -532,26 +532,26 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Compact Density -->
-      <h2 style="${y.h2}">Compact density</h2>
-      <p style="${y.bodySm} opacity: 0.85; max-width: ${b}; margin-bottom: 1.5rem;">
-        Use <code style="${y.monoSm}">data-density="compact"</code> for reduced padding. 
+      <h2 style="${C.h2}">Compact density</h2>
+      <p style="${C.bodySm} opacity: 0.85; max-width: ${w}; margin-bottom: 1.5rem;">
+        Use <code style="${C.monoSm}">data-density="compact"</code> for reduced padding. 
         Useful for footer/header contexts or dense UI.
       </p>
 
       <div style="display: flex; gap: 2rem; max-width: 600px; margin-bottom: 2rem;">
         <div style="flex: 1;">
-          <p style="${y.caption} margin-bottom: 0.5rem;"><strong>Default</strong></p>
+          <p style="${C.caption} margin-bottom: 0.5rem;"><strong>Default</strong></p>
           <mms-select 
             label="State"
-            .options=${S}
+            .options=${E}
           ></mms-select>
         </div>
         <div style="flex: 1;">
-          <p style="${y.caption} margin-bottom: 0.5rem;"><strong>Compact</strong></p>
+          <p style="${C.caption} margin-bottom: 0.5rem;"><strong>Compact</strong></p>
           <mms-select 
             label="State"
             data-density="compact"
-            .options=${S}
+            .options=${E}
           ></mms-select>
         </div>
       </div>
@@ -559,79 +559,29 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       <hr style="border: none; border-top: 1px solid rgba(128,128,128,0.15); margin: 0 0 2rem;" />
 
       <!-- Accessibility -->
-      <h2 style="${y.h2}">Accessibility</h2>
+      <h2 style="${C.h2}">Accessibility</h2>
       
       <div style="background: rgba(34, 197, 94, 0.08); border-left: 3px solid #22C55E; padding: 1rem 1.25rem; margin-bottom: 1.5rem; border-radius: 0 6px 6px 0;">
-        <p style="${y.bodySm} margin: 0;">
+        <p style="${C.bodySm} margin: 0;">
           <strong>Why native &lt;select&gt;?</strong> Custom dropdown implementations (listbox + button) require extensive ARIA wiring and 
           often fail edge cases with screen readers. Native &lt;select&gt; guarantees correct behavior across all assistive technologies 
           with zero custom ARIA — the browser handles announcements, focus, and keyboard navigation.
         </p>
       </div>
 
-      <h3 style="${y.h3}">WCAG 2.2 AA Compliance</h3>
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
-        <thead>
-          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
-            <td style="padding: 0.5rem 0.75rem;">Programmatic label association</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible label linked via <code style="${y.monoSm}">aria-labelledby</code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
-            <td style="padding: 0.5rem 0.75rem;">Border meets 3.3:1 against surface background</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
-            <td style="padding: 0.5rem 0.75rem;">2px focus ring (1px border + 1px box-shadow)</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
-            <td style="padding: 0.5rem 0.75rem;">No overlapping elements obscure focus ring</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
-            <td style="padding: 0.5rem 0.75rem;">Minimum height 36px (sm size: 8px + 20px + 8px)</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>3.3.1</strong> Error Identification</td>
-            <td style="padding: 0.5rem 0.75rem;">Errors described in text</td>
-            <td style="padding: 0.5rem 0.75rem;">Error message with <code style="${y.monoSm}">role="alert"</code> for immediate announcement</td>
-          </tr>
-          <tr>
-            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
-            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
-            <td style="padding: 0.5rem 0.75rem;">Native &lt;select&gt; + <code style="${y.monoSm}">aria-invalid</code>, <code style="${y.monoSm}">aria-required</code></td>
-          </tr>
-        </tbody>
-      </table>
+      <h3 style="${C.h3}">WCAG 2.2 AA Compliance</h3>
+      ${_(g.select.rows)}
 
-      <h3 style="${y.h3}">Screen Reader Behavior</h3>
-      <ul style="${y.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
+      <h3 style="${C.h3}">Screen Reader Behavior</h3>
+      <ul style="${C.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
         <li style="margin-bottom: 0.5rem;"><strong>Focus:</strong> Announces label, current value (or "blank"), and "combo box"</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Required:</strong> Announces "required" when <code style="${y.monoSm}">required</code> prop is set</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Error:</strong> Immediately announces error message via <code style="${y.monoSm}">role="alert"</code> when error state activates</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Required:</strong> Announces "required" when <code style="${C.monoSm}">required</code> prop is set</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Error:</strong> Immediately announces error message via <code style="${C.monoSm}">role="alert"</code> when error state activates</li>
         <li style="margin-bottom: 0.5rem;"><strong>Selection:</strong> Announces newly selected option as user navigates with arrow keys</li>
-        <li><strong>Helper text:</strong> Read as part of field description via <code style="${y.monoSm}">aria-describedby</code></li>
+        <li><strong>Helper text:</strong> Read as part of field description via <code style="${C.monoSm}">aria-describedby</code></li>
       </ul>
 
-      <h3 style="${y.h3}">Keyboard Navigation</h3>
+      <h3 style="${C.h3}">Keyboard Navigation</h3>
       <table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.875rem;">
         <thead>
           <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
@@ -668,7 +618,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       </table>
 
     </div>
-  `},w={name:`Playground`,tags:[`!dev`],args:{size:`md`,state:`default`,disabled:!1,readonly:!1,label:`Select an option`,placeholder:`Choose...`,helperText:`Select one of the available options.`,options:[{value:`option1`,label:`Option 1`},{value:`option2`,label:`Option 2`},{value:`option3`,label:`Option 3`},{value:`option4`,label:`Option 4`}],name:`mySelect`,value:``,required:!1,error:!1,errorText:`Please make a selection.`,showTooltip:!1,tooltipText:`Additional guidance for this field`,theme:`maximus`,density:`default`},decorators:[e=>a`
+  `},O={name:`Playground`,tags:[`!dev`],args:{size:`md`,state:`default`,disabled:!1,readonly:!1,label:`Select an option`,placeholder:`Choose...`,helperText:`Select one of the available options.`,options:[{value:`option1`,label:`Option 1`},{value:`option2`,label:`Option 2`},{value:`option3`,label:`Option 3`},{value:`option4`,label:`Option 4`}],name:`mySelect`,value:``,required:!1,error:!1,errorText:`Please make a selection.`,showTooltip:!1,tooltipText:`Additional guidance for this field`,theme:`maximus`,density:`default`},decorators:[e=>a`
         <div
           style="
             display: flex;
@@ -700,7 +650,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
         data-density=${e.density===`compact`?`compact`:n}
         .options=${t}
       ></mms-select>
-    `}},C.parameters={...C.parameters,docs:{...C.parameters?.docs,source:{originalSource:`{
+    `}},D.parameters={...D.parameters,docs:{...D.parameters?.docs,source:{originalSource:`{
   name: 'Overview',
   render: () => html\`
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: \${PAGE_MAX}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
@@ -1010,57 +960,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       </div>
 
       <h3 style="\${t.h3}">WCAG 2.2 AA Compliance</h3>
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
-        <thead>
-          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
-            <td style="padding: 0.5rem 0.75rem;">Programmatic label association</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible label linked via <code style="\${t.monoSm}">aria-labelledby</code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.4.11</strong> Non-text Contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">3:1 for UI components</td>
-            <td style="padding: 0.5rem 0.75rem;">Border meets 3.3:1 against surface background</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
-            <td style="padding: 0.5rem 0.75rem;">2px focus ring (1px border + 1px box-shadow)</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
-            <td style="padding: 0.5rem 0.75rem;">No overlapping elements obscure focus ring</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">#386CF7 focus ring: 4.4:1 vs white, 4.1:1 vs dark surface</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
-            <td style="padding: 0.5rem 0.75rem;">Minimum height 36px (sm size: 8px + 20px + 8px)</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>3.3.1</strong> Error Identification</td>
-            <td style="padding: 0.5rem 0.75rem;">Errors described in text</td>
-            <td style="padding: 0.5rem 0.75rem;">Error message with <code style="\${t.monoSm}">role="alert"</code> for immediate announcement</td>
-          </tr>
-          <tr>
-            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
-            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
-            <td style="padding: 0.5rem 0.75rem;">Native &lt;select&gt; + <code style="\${t.monoSm}">aria-invalid</code>, <code style="\${t.monoSm}">aria-required</code></td>
-          </tr>
-        </tbody>
-      </table>
+      \${renderWcagComplianceTable(wcagTables['select'].rows)}
 
       <h3 style="\${t.h3}">Screen Reader Behavior</h3>
       <ul style="\${t.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
@@ -1109,7 +1009,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
 
     </div>
   \`
-}`,...C.parameters?.docs?.source}}},w.parameters={...w.parameters,docs:{...w.parameters?.docs,source:{originalSource:`{
+}`,...D.parameters?.docs?.source}}},O.parameters={...O.parameters,docs:{...O.parameters?.docs,source:{originalSource:`{
   name: 'Playground',
   tags: ['!dev'],
   args: {
@@ -1398,4 +1298,4 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{i as n,n as r,p
       ></mms-select>
     \`;
   }
-}`,...w.parameters?.docs?.source}}},T=[`Overview`,`PlaygroundStory`]}));E();export{C as Overview,w as PlaygroundStory,T as __namedExportsOrder,v as default,E as n,_ as t};
+}`,...O.parameters?.docs?.source}}},k=[`Overview`,`PlaygroundStory`]}));A();export{D as Overview,O as PlaygroundStory,k as __namedExportsOrder,S as default,A as n,x as t};

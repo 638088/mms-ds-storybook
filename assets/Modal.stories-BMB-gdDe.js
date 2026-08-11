@@ -1,4 +1,4 @@
-import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n as i,p as a,s as o,t as s}from"./lit-aQ4dERgF.js";import{a as c,f as l,i as ee,m as te,n as ne,o as u,r as d,s as f,t as p}from"./decorate-CFSc4vnv.js";import{n as m,t as h}from"./validate-color-scheme-Du8WhLEN.js";import{a as re,i as g,n as ie,r as ae,t as _}from"./mms-icon.component-Cz1Jc6Sy.js";import{n as v,o as oe,s as se}from"./iframe-CsvgvVan.js";import{n as ce,r as le,t as ue}from"./theme-constraints-DyQSN_xs.js";import{t as y}from"./mms-text-field.component-3yaqCCF4.js";function de(e){this._$AN===void 0?this._$AM=e:(x(this),this._$AM=e,S(this))}function fe(e,t=!1,n=0){let r=this._$AH,i=this._$AN;if(i!==void 0&&i.size!==0)if(t)if(Array.isArray(r))for(let e=n;e<r.length;e++)b(r[e],!1),x(r[e]);else r!=null&&(b(r,!1),x(r));else b(this,e)}var b,x,S,C,w,pe=e((()=>{oe(),g(),b=(e,t)=>{let n=e._$AN;if(n===void 0)return!1;for(let e of n)e._$AO?.(t,!1),b(e,t);return!0},x=e=>{let t,n;do{if((t=e._$AM)===void 0)break;n=t._$AN,n.delete(e),e=t}while(n?.size===0)},S=e=>{for(let t;t=e._$AM;e=t){let n=t._$AN;if(n===void 0)t._$AN=n=new Set;else if(n.has(e))break;n.add(e),C(t)}},C=e=>{e.type==re.CHILD&&(e._$AP??=fe,e._$AQ??=de)},w=class extends ae{constructor(){super(...arguments),this._$AN=void 0}_$AT(e,t,n){super._$AT(e,t,n),S(this),this.isConnected=e._$AU}_$AO(e,t=!0){e!==this.isConnected&&(this.isConnected=e,e?this.reconnected?.():this.disconnected?.()),t&&(b(this,e),x(this))}setValue(e){if(se(this._$Ct))this._$Ct._$AI(e,this);else{let t=[...this._$Ct._$AH];t[this._$Ci]=e,this._$Ct._$AI(t,this,0)}}disconnected(){}reconnected(){}}})),T,E,D,O,me=e((()=>{n(),pe(),g(),T=()=>new E,E=class{},D=new WeakMap,O=ie(class extends w{render(e){return r}update(e,[t]){let n=t!==this.G;return n&&this.rt(void 0),(n||this.lt!==this.ct)&&(this.G=t,this.ht=e.options?.host,this.rt(this.ct=e.element)),r}rt(e){if(this.G!==void 0)if(this.isConnected||(e=void 0),typeof this.G==`function`){let t=this.ht??globalThis,n=D.get(t);n===void 0&&(n=new WeakMap,D.set(t,n)),n.get(this.G)!==void 0&&this.G.call(this.ht,void 0),n.set(this.G,e),e!==void 0&&this.G.call(this.ht,e)}else this.G.value=e}get lt(){return typeof this.G==`function`?D.get(this.ht??globalThis)?.get(this.G):this.G?.value}disconnected(){this.lt===this.ct&&this.rt(void 0)}reconnected(){this.rt(this.ct)}})})),k=e((()=>{me()})),A,j,M=e((()=>{s(),u(),c(),h(),_(),v(),ne(),A=[`a[href]`,`button:not([disabled])`,`input:not([disabled])`,`select:not([disabled])`,`textarea:not([disabled])`,`[tabindex]:not([tabindex="-1"])`,`mms-button:not([disabled])`,`mms-link`,`mms-text-field:not([disabled])`].join(`,`),j=class extends i{constructor(...e){super(...e),this.size=`xl`,this.open=!1,this.titleText=``,this.description=!0,this.descText=``,this.closeIcon=!0,this.primaryLabel=`Confirm`,this.secondaryLabel=`Cancel`,this.tertiaryLabel=``,this.colorScheme=`onyx`,this._previouslyFocused=null,this._boundEscapeKeyDown=this._handleEscapeKeyDown.bind(this),this._boundFocusTrapKeyDown=this._handleFocusTrapKeyDown.bind(this)}connectedCallback(){super.connectedCallback(),document.addEventListener(`keydown`,this._boundEscapeKeyDown)}disconnectedCallback(){super.disconnectedCallback(),document.removeEventListener(`keydown`,this._boundEscapeKeyDown),document.removeEventListener(`keydown`,this._boundFocusTrapKeyDown)}firstUpdated(){m(this,this.colorScheme,`mms-modal`)}updated(e){super.updated(e),e.has(`open`)&&(this.open?this._activateFocusTrap():this._deactivateFocusTrap())}_handleEscapeKeyDown(e){this.open&&e.key===`Escape`&&this._handleClose(`escape-key`)}_getFocusableElements(){if(!this._dialogEl)return[];let e=Array.from(this._dialogEl.querySelectorAll(A)),t=this.shadowRoot?.querySelector(`slot`),n=(t?t.assignedElements({flatten:!0}):[]).flatMap(e=>e.matches(A)?[e]:Array.from(e.querySelectorAll(A)));return[...e,...n].filter(e=>{let t=getComputedStyle(e);return t.display!==`none`&&t.visibility!==`hidden`})}_activateFocusTrap(){this._previouslyFocused=document.activeElement,document.addEventListener(`keydown`,this._boundFocusTrapKeyDown),requestAnimationFrame(()=>{this._getFocusableElements()[0]?.focus()})}_deactivateFocusTrap(){document.removeEventListener(`keydown`,this._boundFocusTrapKeyDown),this._previouslyFocused?.focus(),this._previouslyFocused=null}_handleFocusTrapKeyDown(e){if(e.key!==`Tab`)return;let t=this._getFocusableElements();if(t.length===0)return;let n=t[0],r=t[t.length-1],i=this.shadowRoot?.activeElement;e.shiftKey&&i===n?(e.preventDefault(),r.focus()):!e.shiftKey&&i===r&&(e.preventDefault(),n.focus())}_handleClose(e){this.open=!1,this.dispatchEvent(new CustomEvent(`close`,{detail:{source:e},bubbles:!0,composed:!0}))}_handleOverlayClick(e){e.target===e.currentTarget&&this._handleClose(`overlay-click`)}_handlePrimaryClick(){this.dispatchEvent(new CustomEvent(`primary-click`,{bubbles:!0,composed:!0}))}_handleSecondaryClick(){this.dispatchEvent(new CustomEvent(`secondary-click`,{bubbles:!0,composed:!0})),this._handleClose(`secondary-button`)}_handleTertiaryClick(){this.dispatchEvent(new CustomEvent(`tertiary-click`,{bubbles:!0,composed:!0}))}_renderFooter(){return o`
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n as i,p as a,s as o,t as s}from"./lit-aQ4dERgF.js";import{a as c,f as l,i as ee,m as te,n as u,o as d,r as f,s as p,t as m}from"./decorate-CFSc4vnv.js";import{n as ne,t as re}from"./validate-color-scheme-Du8WhLEN.js";import{a as ie,i as h,n as ae,r as g,t as _}from"./mms-icon.component-Cz1Jc6Sy.js";import{n as v,o as oe,s as se}from"./iframe-HnRd4-qG.js";import{n as ce,r as le,t as y}from"./theme-constraints-DyQSN_xs.js";import{a as ue,o as de,r as fe,t as pe}from"./a11y-outcome-BIVC7m09.js";import{t as me}from"./mms-text-field.component-3yaqCCF4.js";function he(e){this._$AN===void 0?this._$AM=e:(x(this),this._$AM=e,S(this))}function ge(e,t=!1,n=0){let r=this._$AH,i=this._$AN;if(i!==void 0&&i.size!==0)if(t)if(Array.isArray(r))for(let e=n;e<r.length;e++)b(r[e],!1),x(r[e]);else r!=null&&(b(r,!1),x(r));else b(this,e)}var b,x,S,C,w,_e=e((()=>{oe(),h(),b=(e,t)=>{let n=e._$AN;if(n===void 0)return!1;for(let e of n)e._$AO?.(t,!1),b(e,t);return!0},x=e=>{let t,n;do{if((t=e._$AM)===void 0)break;n=t._$AN,n.delete(e),e=t}while(n?.size===0)},S=e=>{for(let t;t=e._$AM;e=t){let n=t._$AN;if(n===void 0)t._$AN=n=new Set;else if(n.has(e))break;n.add(e),C(t)}},C=e=>{e.type==ie.CHILD&&(e._$AP??=ge,e._$AQ??=he)},w=class extends g{constructor(){super(...arguments),this._$AN=void 0}_$AT(e,t,n){super._$AT(e,t,n),S(this),this.isConnected=e._$AU}_$AO(e,t=!0){e!==this.isConnected&&(this.isConnected=e,e?this.reconnected?.():this.disconnected?.()),t&&(b(this,e),x(this))}setValue(e){if(se(this._$Ct))this._$Ct._$AI(e,this);else{let t=[...this._$Ct._$AH];t[this._$Ci]=e,this._$Ct._$AI(t,this,0)}}disconnected(){}reconnected(){}}})),T,E,D,O,k=e((()=>{n(),_e(),h(),T=()=>new E,E=class{},D=new WeakMap,O=ae(class extends w{render(e){return r}update(e,[t]){let n=t!==this.G;return n&&this.rt(void 0),(n||this.lt!==this.ct)&&(this.G=t,this.ht=e.options?.host,this.rt(this.ct=e.element)),r}rt(e){if(this.G!==void 0)if(this.isConnected||(e=void 0),typeof this.G==`function`){let t=this.ht??globalThis,n=D.get(t);n===void 0&&(n=new WeakMap,D.set(t,n)),n.get(this.G)!==void 0&&this.G.call(this.ht,void 0),n.set(this.G,e),e!==void 0&&this.G.call(this.ht,e)}else this.G.value=e}get lt(){return typeof this.G==`function`?D.get(this.ht??globalThis)?.get(this.G):this.G?.value}disconnected(){this.lt===this.ct&&this.rt(void 0)}reconnected(){this.rt(this.ct)}})})),A=e((()=>{k()})),j,M,N=e((()=>{s(),d(),c(),re(),_(),v(),u(),j=[`a[href]`,`button:not([disabled])`,`input:not([disabled])`,`select:not([disabled])`,`textarea:not([disabled])`,`[tabindex]:not([tabindex="-1"])`,`mms-button:not([disabled])`,`mms-link`,`mms-text-field:not([disabled])`].join(`,`),M=class extends i{constructor(...e){super(...e),this.size=`xl`,this.open=!1,this.titleText=``,this.description=!0,this.descText=``,this.closeIcon=!0,this.primaryLabel=`Confirm`,this.secondaryLabel=`Cancel`,this.tertiaryLabel=``,this.colorScheme=`onyx`,this._previouslyFocused=null,this._boundEscapeKeyDown=this._handleEscapeKeyDown.bind(this),this._boundFocusTrapKeyDown=this._handleFocusTrapKeyDown.bind(this)}connectedCallback(){super.connectedCallback(),document.addEventListener(`keydown`,this._boundEscapeKeyDown)}disconnectedCallback(){super.disconnectedCallback(),document.removeEventListener(`keydown`,this._boundEscapeKeyDown),document.removeEventListener(`keydown`,this._boundFocusTrapKeyDown)}firstUpdated(){ne(this,this.colorScheme,`mms-modal`)}updated(e){super.updated(e),e.has(`open`)&&(this.open?this._activateFocusTrap():this._deactivateFocusTrap())}_handleEscapeKeyDown(e){this.open&&e.key===`Escape`&&this._handleClose(`escape-key`)}_getFocusableElements(){if(!this._dialogEl)return[];let e=Array.from(this._dialogEl.querySelectorAll(j)),t=this.shadowRoot?.querySelector(`slot`),n=(t?t.assignedElements({flatten:!0}):[]).flatMap(e=>e.matches(j)?[e]:Array.from(e.querySelectorAll(j)));return[...e,...n].filter(e=>{let t=getComputedStyle(e);return t.display!==`none`&&t.visibility!==`hidden`})}_activateFocusTrap(){this._previouslyFocused=document.activeElement,document.addEventListener(`keydown`,this._boundFocusTrapKeyDown),requestAnimationFrame(()=>{this._getFocusableElements()[0]?.focus()})}_deactivateFocusTrap(){document.removeEventListener(`keydown`,this._boundFocusTrapKeyDown),this._previouslyFocused?.focus(),this._previouslyFocused=null}_handleFocusTrapKeyDown(e){if(e.key!==`Tab`)return;let t=this._getFocusableElements();if(t.length===0)return;let n=t[0],r=t[t.length-1],i=this.shadowRoot?.activeElement;e.shiftKey&&i===n?(e.preventDefault(),r.focus()):!e.shiftKey&&i===r&&(e.preventDefault(),n.focus())}_handleClose(e){this.open=!1,this.dispatchEvent(new CustomEvent(`close`,{detail:{source:e},bubbles:!0,composed:!0}))}_handleOverlayClick(e){e.target===e.currentTarget&&this._handleClose(`overlay-click`)}_handlePrimaryClick(){this.dispatchEvent(new CustomEvent(`primary-click`,{bubbles:!0,composed:!0}))}_handleSecondaryClick(){this.dispatchEvent(new CustomEvent(`secondary-click`,{bubbles:!0,composed:!0})),this._handleClose(`secondary-button`)}_handleTertiaryClick(){this.dispatchEvent(new CustomEvent(`tertiary-click`,{bubbles:!0,composed:!0}))}_renderFooter(){return o`
       ${this.tertiaryLabel?o`
             <mms-button
               variant="ghost"
@@ -60,7 +60,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
           <div class="footer">${this._renderFooter()}</div>
         </div>
       </div>
-    `}static{this.styles=[d,ee,a`
+    `}static{this.styles=[f,ee,a`
       :host {
         display: none;
       }
@@ -221,7 +221,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
         flex: 0 0 auto;
         white-space: nowrap;
       }
-    `]}},p([l({type:String,reflect:!0})],j.prototype,`size`,void 0),p([l({type:Boolean,reflect:!0})],j.prototype,`open`,void 0),p([l({type:String,attribute:`title-text`})],j.prototype,`titleText`,void 0),p([l({type:Boolean})],j.prototype,`description`,void 0),p([l({type:String,attribute:`desc-text`})],j.prototype,`descText`,void 0),p([l({type:Boolean,attribute:`close-icon`})],j.prototype,`closeIcon`,void 0),p([l({type:String,attribute:`primary-label`})],j.prototype,`primaryLabel`,void 0),p([l({type:String,attribute:`secondary-label`})],j.prototype,`secondaryLabel`,void 0),p([l({type:String,attribute:`tertiary-label`})],j.prototype,`tertiaryLabel`,void 0),p([l({type:String,reflect:!0,attribute:`color-scheme`})],j.prototype,`colorScheme`,void 0),p([f(`.dialog`)],j.prototype,`_dialogEl`,void 0),j=p([te(`mms-modal`)],j)})),N=t({Overview:()=>X,PlaygroundStory:()=>Z,__namedExportsOrder:()=>Q,default:()=>I});function P(e){e.value&&(e.value.open=!0)}function F(e,t){if(J.has(e))return;J.add(e);let n=()=>{let n=e.shadowRoot?.querySelector(`.overlay`),r=e.shadowRoot?.querySelector(`.header`),i=e.shadowRoot?.querySelector(`.body`),a=e.shadowRoot?.querySelector(`.footer`);if(!n||!r||!i||!a)return;let o=parseFloat(getComputedStyle(n).paddingTop)||0,s=(r.getBoundingClientRect().height+i.scrollHeight+a.getBoundingClientRect().height)/.8+o*2;t.style.height=`${Math.ceil(Math.min(s,Y))}px`},r=new ResizeObserver(n),i=e.shadowRoot?.querySelector(`.content-frame`);i&&r.observe(i);let a=e.shadowRoot?.querySelector(`.header`);a&&r.observe(a);let o=e.shadowRoot?.querySelector(`.footer`);o&&r.observe(o),new MutationObserver(n).observe(e,{attributes:!0,attributeFilter:[`size`]}),n()}var I,L,R,z,B,V,H,U,W,G,K,q,J,Y,X,Z,Q,$=e((()=>{s(),k(),M(),v(),y(),ce(),I={title:`Feedback/Modal`,tags:[`!autodocs`],parameters:{layout:`fullscreen`}},L={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},R=`680px`,z=`960px`,B=T(),V=T(),H=T(),U=T(),W=T(),G=T(),K=T(),q=T(),J=new WeakSet,Y=900,X={name:`Overview`,render:()=>o`
+    `]}},m([l({type:String,reflect:!0})],M.prototype,`size`,void 0),m([l({type:Boolean,reflect:!0})],M.prototype,`open`,void 0),m([l({type:String,attribute:`title-text`})],M.prototype,`titleText`,void 0),m([l({type:Boolean})],M.prototype,`description`,void 0),m([l({type:String,attribute:`desc-text`})],M.prototype,`descText`,void 0),m([l({type:Boolean,attribute:`close-icon`})],M.prototype,`closeIcon`,void 0),m([l({type:String,attribute:`primary-label`})],M.prototype,`primaryLabel`,void 0),m([l({type:String,attribute:`secondary-label`})],M.prototype,`secondaryLabel`,void 0),m([l({type:String,attribute:`tertiary-label`})],M.prototype,`tertiaryLabel`,void 0),m([l({type:String,reflect:!0,attribute:`color-scheme`})],M.prototype,`colorScheme`,void 0),m([p(`.dialog`)],M.prototype,`_dialogEl`,void 0),M=m([te(`mms-modal`)],M)})),P=t({Overview:()=>X,PlaygroundStory:()=>Z,__namedExportsOrder:()=>Q,default:()=>I});function F(e){e.value&&(e.value.open=!0)}function ve(e,t){if(J.has(e))return;J.add(e);let n=()=>{let n=e.shadowRoot?.querySelector(`.overlay`),r=e.shadowRoot?.querySelector(`.header`),i=e.shadowRoot?.querySelector(`.body`),a=e.shadowRoot?.querySelector(`.footer`);if(!n||!r||!i||!a)return;let o=parseFloat(getComputedStyle(n).paddingTop)||0,s=(r.getBoundingClientRect().height+i.scrollHeight+a.getBoundingClientRect().height)/.8+o*2;t.style.height=`${Math.ceil(Math.min(s,Y))}px`},r=new ResizeObserver(n),i=e.shadowRoot?.querySelector(`.content-frame`);i&&r.observe(i);let a=e.shadowRoot?.querySelector(`.header`);a&&r.observe(a);let o=e.shadowRoot?.querySelector(`.footer`);o&&r.observe(o),new MutationObserver(n).observe(e,{attributes:!0,attributeFilter:[`size`]}),n()}var I,L,R,z,B,V,H,U,W,G,K,q,J,Y,X,Z,Q,$=e((()=>{s(),A(),N(),v(),me(),ce(),ue(),pe(),I={title:`Feedback/Modal`,tags:[`!autodocs`],parameters:{layout:`fullscreen`}},L={h1:`font-size: 1.875rem; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.5rem;`,h2:`font-size: 1.25rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.75rem;`,h3:`font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.75rem; opacity: 0.65;`,body:`font-size: 1rem; line-height: 1.6; margin: 0;`,bodySm:`font-size: 0.9375rem; line-height: 1.55; margin: 0;`,caption:`font-size: 0.875rem; line-height: 1.5; margin: 0;`,mono:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9375rem;`,monoSm:`font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.875rem;`},R=`680px`,z=`960px`,B=T(),V=T(),H=T(),U=T(),W=T(),G=T(),K=T(),q=T(),J=new WeakSet,Y=900,X={name:`Overview`,render:()=>o`
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: ${z}; margin: 0 auto; padding: 2rem; line-height: 1.6; color: inherit;">
 
       <!-- Header -->
@@ -241,7 +241,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </p>
 
       <div style="margin-bottom: 2rem;">
-        <mms-button variant="secondary" label="Open modal" @click=${()=>P(B)}></mms-button>
+        <mms-button variant="secondary" label="Open modal" @click=${()=>F(B)}></mms-button>
         <mms-modal
           ${O(B)}
           title-text="Save changes?"
@@ -263,16 +263,16 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </p>
 
       <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
-        <mms-button variant="secondary" label="Open xl" @click=${()=>P(V)}></mms-button>
+        <mms-button variant="secondary" label="Open xl" @click=${()=>F(V)}></mms-button>
         <mms-modal ${O(V)} size="xl" title-text="XL (1140px)" desc-text="Used for content-rich dialogs."></mms-modal>
 
-        <mms-button variant="secondary" label="Open lg" @click=${()=>P(H)}></mms-button>
+        <mms-button variant="secondary" label="Open lg" @click=${()=>F(H)}></mms-button>
         <mms-modal ${O(H)} size="lg" title-text="LG (800px)" desc-text="Used for standard forms and decisions."></mms-modal>
 
-        <mms-button variant="secondary" label="Open md" @click=${()=>P(U)}></mms-button>
+        <mms-button variant="secondary" label="Open md" @click=${()=>F(U)}></mms-button>
         <mms-modal ${O(U)} size="md" title-text="MD (640px)" desc-text="Used for shorter confirmations."></mms-modal>
 
-        <mms-button variant="secondary" label="Open sm" @click=${()=>P(W)}></mms-button>
+        <mms-button variant="secondary" label="Open sm" @click=${()=>F(W)}></mms-button>
         <mms-modal ${O(W)} size="sm" title-text="Are you sure?" desc-text="Full-width stacked actions." primary-label="Confirm" secondary-label="Cancel"></mms-modal>
       </div>
 
@@ -287,7 +287,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </p>
 
       <div style="margin-bottom: 2rem;">
-        <mms-button variant="secondary" label="Open modal" @click=${()=>P(G)}></mms-button>
+        <mms-button variant="secondary" label="Open modal" @click=${()=>F(G)}></mms-button>
         <mms-modal
           ${O(G)}
           title-text="Enable two-factor authentication?"
@@ -312,7 +312,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </p>
 
       <div style="margin-bottom: 2rem;">
-        <mms-button variant="secondary" label="Open modal" @click=${()=>P(K)}></mms-button>
+        <mms-button variant="secondary" label="Open modal" @click=${()=>F(K)}></mms-button>
         <mms-modal
           ${O(K)}
           .closeIcon=${!1}
@@ -336,7 +336,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </p>
 
       <div style="margin-bottom: 2rem;">
-        <mms-button variant="secondary" label="Open modal" @click=${()=>P(q)}></mms-button>
+        <mms-button variant="secondary" label="Open modal" @click=${()=>F(q)}></mms-button>
         <mms-modal
           ${O(q)}
           size="lg"
@@ -364,57 +364,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </div>
 
       <h3 style="${L.h3}">WCAG 2.2 AA Compliance</h3>
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
-        <thead>
-          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
-            <td style="padding: 0.5rem 0.75rem;">Programmatic structure</td>
-            <td style="padding: 0.5rem 0.75rem;"><code style="${L.monoSm}">role="dialog"</code>, title linked via <code style="${L.monoSm}">aria-labelledby</code>, description via <code style="${L.monoSm}">aria-describedby</code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.1.2</strong> No Keyboard Trap</td>
-            <td style="padding: 0.5rem 0.75rem;">A standard method must exist to move focus away</td>
-            <td style="padding: 0.5rem 0.75rem;">Escape key always closes the dialog, regardless of focus location</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.3</strong> Focus Order</td>
-            <td style="padding: 0.5rem 0.75rem;">Logical, predictable focus sequence</td>
-            <td style="padding: 0.5rem 0.75rem;">Focus moves to the first focusable element on open; Tab/Shift+Tab cycle within the dialog</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
-            <td style="padding: 0.5rem 0.75rem;">Shared <code style="${L.monoSm}">focusRing</code> token-based ring on all interactive elements</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
-            <td style="padding: 0.5rem 0.75rem;">Dialog renders above the overlay at a fixed z-index; no element ever overlaps the focused control</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">Inherited from the shared focus-ring tokens used across all mms components</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
-            <td style="padding: 0.5rem 0.75rem;">Close button hit area extends via negative margin past the visible icon</td>
-          </tr>
-          <tr>
-            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
-            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
-            <td style="padding: 0.5rem 0.75rem;"><code style="${L.monoSm}">aria-modal="true"</code>; close button carries an explicit <code style="${L.monoSm}">aria-label</code></td>
-          </tr>
-        </tbody>
-      </table>
+      ${fe(de.modal.rows)}
 
       <h3 style="${L.h3}">Screen Reader Behavior</h3>
       <ul style="${L.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
@@ -450,7 +400,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
 
     </div>
   `},Z={name:`Playground`,tags:[`!dev`],args:{size:`md`,closeIcon:!0,titleText:`Save changes?`,description:!0,descText:`Your changes will be saved and applied immediately.`,primaryLabel:`Save`,secondaryLabel:`Cancel`,tertiaryLabel:``,richContent:!1,colorScheme:`primary`,theme:`maximus`,density:`default`},argTypes:{size:{name:`Size`,control:`select`,options:[`sm`,`md`,`lg`,`xl`],description:`Dialog max-width and footer layout (sm stacks actions full-width)`,table:{category:`Behavior`}},closeIcon:{name:`Close icon`,control:`boolean`,description:`Shows the icon-only close button in the header. Default true — this control uses a property binding, so it toggles correctly here, but a plain HTML attribute cannot represent the false state (see Overview).`,table:{category:`Behavior`}},titleText:{name:`Title text`,control:`text`,description:`Dialog title, rendered as the accessible name`,table:{category:`Content`}},description:{name:`Show description`,control:`boolean`,description:`Whether to render the description paragraph`,table:{category:`Content`}},descText:{name:`Description text`,control:`text`,description:`Description paragraph content`,table:{category:`Content`}},primaryLabel:{name:`Primary label`,control:`text`,description:`Primary action button label — always rendered`,table:{category:`Content`}},secondaryLabel:{name:`Secondary label`,control:`text`,description:`Secondary action button label — hidden when empty`,table:{category:`Content`}},tertiaryLabel:{name:`Tertiary label`,control:`text`,description:`Ghost-variant action label, left-aligned — hidden when empty`,table:{category:`Content`}},richContent:{name:`Rich content (slot)`,control:`boolean`,description:`The default slot accepts any markup as light DOM children — form fields, lists, custom components, anything — rendered below the description. This toggle inserts a text field purely as one example of what can go there; the slot has no opinion about its content. Slotted focusable elements join the same focus trap as the footer actions.`,table:{category:`Content`}},colorScheme:{name:`Color Scheme`,control:`select`,options:[`primary`,`secondary`,`accent`,`onyx`],description:`Color palette for the footer action buttons. "onyx" is structural (works on all themes) and is the default. Brand colors (primary/secondary/accent) availability depends on theme.`,table:{category:`Component Props`}},theme:{name:`Theme`,control:`select`,options:[`default`,`maximus`,`va-gov`],description:`Brand theme (affects typography and action colors)`,table:{category:`Global`}},density:{name:`Density`,control:`select`,options:[`default`,`compact`],description:`Accepted as a global attribute passthrough — mms-modal has no compact-specific styling yet, since dialog chrome padding is intentionally fixed regardless of density`,table:{category:`Global`}}},parameters:{docs:{source:{transform:(e,t)=>{let n=t.args,r=[`open`];n.size&&n.size!==`xl`&&r.push(`size="${n.size}"`),n.titleText&&r.push(`title-text="${n.titleText}"`),n.description===!1&&r.push(".description=${false}"),n.descText&&r.push(`desc-text="${n.descText}"`),n.closeIcon===!1&&r.push(".closeIcon=${false}"),n.primaryLabel&&n.primaryLabel!==`Confirm`&&r.push(`primary-label="${n.primaryLabel}"`),n.secondaryLabel&&n.secondaryLabel!==`Cancel`&&r.push(`secondary-label="${n.secondaryLabel}"`),n.tertiaryLabel&&r.push(`tertiary-label="${n.tertiaryLabel}"`),n.colorScheme&&n.colorScheme!==`onyx`&&r.push(`color-scheme="${n.colorScheme}"`),n.density===`compact`&&r.push(`data-density="compact"`);let i=`<mms-modal\n  ${r.join(`
-  `)}\n>`;return n.richContent?`${i}\n  <mms-text-field label="Street address"></mms-text-field>\n</mms-modal>`:`${i}\n</mms-modal>`},language:`html`}},controls:{sort:`none`}},render:e=>{let t=T(),n=T();queueMicrotask(async()=>{let e=t.value,r=n.value;!e||!r||(await e.updateComplete,F(e,r))});let i=le(e.theme,e.colorScheme),a=ue(e.theme,e.colorScheme);if(!i){let t=a===2?`Tier 2 (Text + Surface)`:`Tier 3 (Decorative)`,n=a===2?`Lacks step 10 (hover state). Use for branded text or badges, not interactive footer buttons.`:`Lacks text contrast and hover states. Decorative backgrounds only.`;return o`
+  `)}\n>`;return n.richContent?`${i}\n  <mms-text-field label="Street address"></mms-text-field>\n</mms-modal>`:`${i}\n</mms-modal>`},language:`html`}},controls:{sort:`none`}},render:e=>{let t=T(),n=T();queueMicrotask(async()=>{let e=t.value,r=n.value;!e||!r||(await e.updateComplete,ve(e,r))});let i=le(e.theme,e.colorScheme),a=y(e.theme,e.colorScheme);if(!i){let t=a===2?`Tier 2 (Text + Surface)`:`Tier 3 (Decorative)`,n=a===2?`Lacks step 10 (hover state). Use for branded text or badges, not interactive footer buttons.`:`Lacks text contrast and hover states. Decorative backgrounds only.`;return o`
         <div style="
           display: flex;
           align-items: center;
@@ -654,57 +604,7 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </div>
 
       <h3 style="\${t.h3}">WCAG 2.2 AA Compliance</h3>
-      <table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem;">
-        <thead>
-          <tr style="border-bottom: 2px solid rgba(128,128,128,0.2);">
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Criterion</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Requirement</th>
-            <th style="text-align: left; padding: 0.5rem 0.75rem; font-weight: 600;">Implementation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>1.3.1</strong> Info & Relationships</td>
-            <td style="padding: 0.5rem 0.75rem;">Programmatic structure</td>
-            <td style="padding: 0.5rem 0.75rem;"><code style="\${t.monoSm}">role="dialog"</code>, title linked via <code style="\${t.monoSm}">aria-labelledby</code>, description via <code style="\${t.monoSm}">aria-describedby</code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.1.2</strong> No Keyboard Trap</td>
-            <td style="padding: 0.5rem 0.75rem;">A standard method must exist to move focus away</td>
-            <td style="padding: 0.5rem 0.75rem;">Escape key always closes the dialog, regardless of focus location</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.3</strong> Focus Order</td>
-            <td style="padding: 0.5rem 0.75rem;">Logical, predictable focus sequence</td>
-            <td style="padding: 0.5rem 0.75rem;">Focus moves to the first focusable element on open; Tab/Shift+Tab cycle within the dialog</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.7</strong> Focus Visible</td>
-            <td style="padding: 0.5rem 0.75rem;">Visible focus indicator</td>
-            <td style="padding: 0.5rem 0.75rem;">Shared <code style="\${t.monoSm}">focusRing</code> token-based ring on all interactive elements</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.11</strong> Focus Not Obscured <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">Focus indicator not hidden</td>
-            <td style="padding: 0.5rem 0.75rem;">Dialog renders above the overlay at a fixed z-index; no element ever overlaps the focused control</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.4.13</strong> Focus Appearance <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥2px thick, 3:1 contrast</td>
-            <td style="padding: 0.5rem 0.75rem;">Inherited from the shared focus-ring tokens used across all mms components</td>
-          </tr>
-          <tr style="border-bottom: 1px solid rgba(128,128,128,0.1);">
-            <td style="padding: 0.5rem 0.75rem;"><strong>2.5.8</strong> Target Size <span style="background: rgba(34, 197, 94, 0.15); padding: 0.125rem 0.375rem; border-radius: 3px; font-size: 0.75rem; font-weight: 600;">2.2</span></td>
-            <td style="padding: 0.5rem 0.75rem;">≥24×24 CSS pixels</td>
-            <td style="padding: 0.5rem 0.75rem;">Close button hit area extends via negative margin past the visible icon</td>
-          </tr>
-          <tr>
-            <td style="padding: 0.5rem 0.75rem;"><strong>4.1.2</strong> Name, Role, Value</td>
-            <td style="padding: 0.5rem 0.75rem;">Accessible name and state</td>
-            <td style="padding: 0.5rem 0.75rem;"><code style="\${t.monoSm}">aria-modal="true"</code>; close button carries an explicit <code style="\${t.monoSm}">aria-label</code></td>
-          </tr>
-        </tbody>
-      </table>
+      \${renderWcagComplianceTable(wcagTables['modal'].rows)}
 
       <h3 style="\${t.h3}">Screen Reader Behavior</h3>
       <ul style="\${t.bodySm} margin: 0 0 1.5rem; padding-left: 1.5rem; opacity: 0.85;">
@@ -991,4 +891,4 @@ import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{c as n,i as r,n
       </div>
     \`;
   }
-}`,...Z.parameters?.docs?.source}}},Q=[`Overview`,`PlaygroundStory`]}));$();export{X as Overview,Z as PlaygroundStory,Q as __namedExportsOrder,I as default,$ as n,N as t};
+}`,...Z.parameters?.docs?.source}}},Q=[`Overview`,`PlaygroundStory`]}));$();export{X as Overview,Z as PlaygroundStory,Q as __namedExportsOrder,I as default,$ as n,P as t};
