@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DaJ6WEGw.js";function t(e,t){let i=r[e]??e;return n.includes(i)?i:t}var n,r,i=e((()=>{n=[`success`,`error`,`caution`,`informational`],r={warning:`caution`}}));export{t as n,i as t};
