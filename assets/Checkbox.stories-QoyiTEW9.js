@@ -1,0 +1,819 @@
+import{n as e,r as t}from"./rolldown-runtime-DaJ6WEGw.js";import{s as n,t as r}from"./lit-B0BZwaT1.js";import{i,n as a,r as o}from"./theme-constraints-BnNpJNRe.js";import{n as s,r as c}from"./wcag-coverage-DNhlI7v1.js";import{a as l,c as u,i as d,l as f,n as p,o as m,r as h,u as g}from"./doc-styles-BoEZknkJ.js";import{a as _,n as v}from"./a11y-outcome-o7pti1Vx.js";import{t as y}from"./mms-checkbox.component-O3-DRxhN.js";var b=t({Overview:()=>S,PlaygroundStory:()=>C,__namedExportsOrder:()=>w,default:()=>x}),x,S,C,w,T=e((()=>{r(),y(),o(),s(),v(),u(),x={title:`Forms/Checkbox`,tags:[`!autodocs`]},S={name:`Overview`,render:()=>n`
+    <div data-theme=${h} data-mode=${m()} style=${p}>
+
+      <!-- Header -->
+      <h1 style="${g.h1}">Checkbox</h1>
+      <p style="${g.body} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        Checkboxes allow users to select one or more items from a set. They're commonly used in forms, settings, and filters.
+      </p>
+
+      <hr style="${l.divider}" />
+
+      <!-- States -->
+      <h2 style="${g.h2}">Selection states</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: ${f.content}; margin-bottom: ${f.subsection};">
+        <div style="${l.panel} display: flex; flex-direction: column;">
+          <h3 style="${g.h3}">Unchecked</h3>
+          <p style="${g.bodySm} ${l.muted} flex: 1;">
+            Default state. User has not selected this option.
+          </p>
+          <div style="margin-top: ${f.content};"><mms-checkbox label="Unchecked option"></mms-checkbox></div>
+        </div>
+        <div style="${l.panel} display: flex; flex-direction: column;">
+          <h3 style="${g.h3}">Checked</h3>
+          <p style="${g.bodySm} ${l.muted} flex: 1;">
+            Selected state. User has chosen this option.
+          </p>
+          <div style="margin-top: ${f.content};"><mms-checkbox label="Checked option" checked></mms-checkbox></div>
+        </div>
+        <div style="${l.panel} display: flex; flex-direction: column;">
+          <h3 style="${g.h3}">Indeterminate</h3>
+          <p style="${g.bodySm} ${l.muted} flex: 1;">
+            Mixed state. Used for "select all" when some children are checked.
+          </p>
+          <div style="margin-top: ${f.content};"><mms-checkbox label="Some selected" indeterminate></mms-checkbox></div>
+        </div>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Color Schemes -->
+      <h2 style="${g.h2}">Color schemes</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.content};">
+        The <code style="${g.monoSm}">color-scheme</code> prop controls which color palette the checkbox uses when checked.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: ${f.content}; margin-bottom: ${f.subsection};">
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">Primary &amp; secondary</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            Brand colors defined by the active theme.
+          </p>
+          <div style="display: flex; gap: ${f.content};">
+            <mms-checkbox color-scheme="primary" label="Primary" checked></mms-checkbox>
+            <mms-checkbox color-scheme="secondary" label="Secondary" checked></mms-checkbox>
+          </div>
+        </div>
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">Accent &amp; onyx</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            <strong>Accent</strong> is theme-specific highlight. <strong>Onyx</strong> is structural black.
+          </p>
+          <div style="display: flex; gap: ${f.content};">
+            <mms-checkbox color-scheme="accent" label="Accent" checked></mms-checkbox>
+            <mms-checkbox color-scheme="onyx" label="Onyx" checked></mms-checkbox>
+          </div>
+        </div>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Sizes -->
+      <h2 style="${g.h2}">Sizes</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        Three sizes accommodate different contexts — compact forms, standard inputs, and prominent selections.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: ${f.content}; margin-bottom: ${f.subsection};">
+        <mms-checkbox size="sm" label="Small checkbox" checked></mms-checkbox>
+        <mms-checkbox size="md" label="Medium checkbox (default)" checked></mms-checkbox>
+        <mms-checkbox size="lg" label="Large checkbox" checked></mms-checkbox>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- With Helper Text -->
+      <h2 style="${g.h2}">With helper text</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        Helper text provides additional guidance below the checkbox.
+      </p>
+
+      <div style="margin-bottom: ${f.subsection};">
+        <mms-checkbox 
+          label="Subscribe to newsletter" 
+          helper-text="We'll send you weekly updates about new features."
+        ></mms-checkbox>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- With Heading -->
+      <h2 style="${g.h2}">With heading</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        An optional heading can be displayed above the checkbox for field labels.
+      </p>
+
+      <div style="margin-bottom: ${f.subsection};">
+        <mms-checkbox 
+          heading="Notification preferences"
+          label="Send me email notifications" 
+          helper-text="You can change this setting at any time."
+        ></mms-checkbox>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Error State -->
+      <h2 style="${g.h2}">Error state</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        Error state is used for validation feedback. The checkbox indicator and error message both use the error color.
+      </p>
+
+      <div style="margin-bottom: ${f.subsection};">
+        <mms-checkbox 
+          label="I agree to the terms and conditions" 
+          error
+          error-text="You must accept the terms to continue."
+          required
+        ></mms-checkbox>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Required Indicator -->
+      <h2 style="${g.h2}">Required indicator</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.content};">
+        When <code style="${g.monoSm}">required</code> is set, an asterisk appears on the highest-level label. If a heading is present, the asterisk shows there; otherwise it appears on the checkbox label.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: ${f.content}; margin-bottom: ${f.subsection};">
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">With heading</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            Asterisk appears on the heading.
+          </p>
+          <mms-checkbox 
+            heading="Terms agreement"
+            label="I accept the terms" 
+            required
+          ></mms-checkbox>
+        </div>
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">Without heading</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            Asterisk appears on the label.
+          </p>
+          <mms-checkbox 
+            label="I accept the terms" 
+            required
+          ></mms-checkbox>
+        </div>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Disabled & Readonly -->
+      <h2 style="${g.h2}">Disabled &amp; read-only</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: ${f.content}; margin-bottom: ${f.subsection};">
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">Disabled</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            Prevents interaction and dims appearance.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: ${f.content};">
+            <mms-checkbox label="Disabled unchecked" disabled></mms-checkbox>
+            <mms-checkbox label="Disabled checked" disabled checked></mms-checkbox>
+          </div>
+        </div>
+        <div style="${l.panel}">
+          <h3 style="${g.h3}">Read-only</h3>
+          <p style="${g.bodySm} ${l.muted} margin-bottom: ${f.content};">
+            Prevents changes but remains visible and focusable.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: ${f.content};">
+            <mms-checkbox label="Read-only unchecked" readonly></mms-checkbox>
+            <mms-checkbox label="Read-only checked" readonly checked></mms-checkbox>
+          </div>
+        </div>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Checkbox Only (no label) -->
+      <h2 style="${g.h2}">Checkbox only</h2>
+      <p style="${g.bodySm} ${l.muted} max-width: ${d}; margin-bottom: ${f.subsection};">
+        When no label is provided, only the checkbox indicator is rendered. Useful for table rows or other constrained layouts.
+      </p>
+
+      <div style="display: flex; gap: ${f.content}; align-items: center; margin-bottom: ${f.subsection};">
+        <mms-checkbox></mms-checkbox>
+        <mms-checkbox checked></mms-checkbox>
+        <mms-checkbox indeterminate></mms-checkbox>
+      </div>
+
+      <hr style="${l.divider}" />
+
+      <!-- Accessibility -->
+      <h2 style="${g.h2}">Accessibility</h2>
+
+      <h3 style="${g.h3}">WCAG 2.2 AA compliance</h3>
+      ${_(c.checkbox.rows)}
+
+      <h3 style="${g.h3}">Screen reader behavior</h3>
+      <ul style="${g.bodySm} ${l.muted} margin: 0 0 ${f.content}; padding-left: var(--spacing-lg1);">
+        <li style="margin-bottom: ${f.label};"><strong>Focus:</strong> Announces label, checked state, and "checkbox"</li>
+        <li style="margin-bottom: ${f.label};"><strong>Indeterminate:</strong> Announces "mixed" or "partially checked"</li>
+        <li style="margin-bottom: ${f.label};"><strong>Required:</strong> Announces "required" when <code style="${g.monoSm}">required</code> prop is set</li>
+        <li style="margin-bottom: ${f.label};"><strong>Error:</strong> Immediately announces error message via <code style="${g.monoSm}">role="alert"</code></li>
+        <li><strong>Helper text:</strong> Read as part of field description via <code style="${g.monoSm}">aria-describedby</code></li>
+      </ul>
+
+      <h3 style="${g.h3}">Keyboard navigation</h3>
+      <table style="${l.table} margin-bottom: ${f.subsection};">
+        <thead>
+          <tr>
+            <th style="${l.th} width: 140px;">Key</th>
+            <th style="${l.th}">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="${l.td}"><kbd style="${l.kbd}">Tab</kbd></td>
+            <td style="${l.td}">Move focus to / from the checkbox</td>
+          </tr>
+          <tr>
+            <td style="${l.td}"><kbd style="${l.kbd}">Space</kbd></td>
+            <td style="${l.td}">Toggle checkbox checked state</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  `},C={name:`Playground`,tags:[`!dev`],args:{label:`I agree to the terms`,checked:!1,indeterminate:!1,colorScheme:`primary`,size:`md`,state:`default`,readonly:!1,disabled:!1,error:!1,errorText:`This field is required`,required:!1,heading:``,helperText:``,name:``,checkedValue:`on`,theme:`maximus`},decorators:[e=>n`
+        <div
+          style="
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem 2rem;
+          "
+        >
+          ${e()}
+        </div>
+      `],argTypes:{label:{name:`Label`,control:`text`,description:`Clickable text next to the checkbox indicator`,table:{category:`Core Interaction`}},checked:{name:`Checked`,control:`boolean`,description:`Whether the checkbox is selected`,table:{category:`Core Interaction`}},indeterminate:{name:`Indeterminate`,control:`boolean`,description:`Mixed state, typically used for "select all" when some children are checked`,table:{category:`Core Interaction`}},colorScheme:{name:`Color Scheme`,control:`select`,options:[`primary`,`secondary`,`accent`,`onyx`],description:`Brand color applied to checked/indeterminate fill`,table:{category:`Visual`}},size:{name:`Size`,control:`select`,options:[`sm`,`md`,`lg`],description:`Checkbox indicator and text size`,table:{category:`Visual`}},state:{name:`State`,control:`select`,options:[`default`,`hover`,`focus`],description:`Interactive state preview (for documentation)`,table:{category:`Visual`}},readonly:{name:`Read-only`,control:`boolean`,description:`Prevents changes but remains focusable and visible`,table:{category:`Visual`}},disabled:{name:`Disabled`,control:`boolean`,description:`Prevents interaction and dims appearance`,table:{category:`Visual`}},error:{name:`Error`,control:`boolean`,description:`Displays error styling and shows error message`,table:{category:`Validation`}},errorText:{name:`Error Text`,control:`text`,description:`Message displayed when error is true`,table:{category:`Validation`}},required:{name:`Required`,control:`boolean`,description:`Marks field as required for form validation`,table:{category:`Validation`}},heading:{name:`Heading`,control:`text`,description:`Optional title displayed above the checkbox`,table:{category:`Secondary Content`}},helperText:{name:`Helper Text`,control:`text`,description:`Supplementary guidance displayed below`,table:{category:`Secondary Content`}},name:{name:`Name`,control:`text`,description:"Name the form submits this control under. The older `field-name` attribute still works but is deprecated since 1.0.0.",table:{category:`Form Integration`}},checkedValue:{name:`Checked Value`,control:`text`,description:`Value submitted to the form when checked`,table:{category:`Form Integration`}},theme:{name:`Theme`,control:`select`,options:[`maximus`,`dow`,`ves`,`uss-oh-dvs`],description:`Brand theme`,table:{category:`Global Props`}}},parameters:{docs:{source:{transform:(e,t)=>{let n=t.args,r=[];return n.label&&r.push(`label="${n.label}"`),n.checked&&r.push(`checked`),n.indeterminate&&r.push(`indeterminate`),n.colorScheme!==`primary`&&r.push(`color-scheme="${n.colorScheme}"`),n.size!==`md`&&r.push(`size="${n.size}"`),n.readonly&&r.push(`readonly`),n.disabled&&r.push(`disabled`),n.error&&r.push(`error`),n.errorText&&n.error&&r.push(`error-text="${n.errorText}"`),n.required&&r.push(`required`),n.heading&&r.push(`heading="${n.heading}"`),n.helperText&&r.push(`helper-text="${n.helperText}"`),n.name&&r.push(`name="${n.name}"`),n.checkedValue!==`on`&&r.push(`checked-value="${n.checkedValue}"`),`<mms-checkbox\n  ${r.join(`
+  `)}\n></mms-checkbox>`},language:`html`}}},render:e=>{let t=i(e.theme,e.colorScheme),r=a(e.theme,e.colorScheme);if(!t){let t=r===2?`Tier 2 (Text + Surface)`:`Tier 3 (Decorative)`,i=r===2?`Lacks step 10 (hover state). Use for branded text or badges, not checkboxes.`:`Lacks text contrast and hover states. Decorative backgrounds only.`;return n`
+        <div style="
+          padding: 1.5rem 2rem;
+          background: #fef2f2;
+          border: 1px solid #ef4444;
+          border-radius: 6px;
+          color: #991b1b;
+          font-size: 0.875rem;
+          line-height: 1.5;
+          max-width: 440px;
+        ">
+          <strong style="display: block; margin-bottom: 0.5rem; color: #991b1b !important;">Invalid combination</strong>
+          <code style="background: #fee2e2; padding: 0.125rem 0.375rem; border-radius: 3px; color: #991b1b !important;">${e.theme}</code> theme +
+          <code style="background: #fee2e2; padding: 0.125rem 0.375rem; border-radius: 3px; color: #991b1b !important;">${e.colorScheme}</code> colorScheme
+          <p style="margin: 0.75rem 0 0; opacity: 0.85; color: #991b1b !important;">
+            <strong style="color: #991b1b !important;">${t}:</strong> ${i}
+          </p>
+          <p style="margin: 0.5rem 0 0; font-size: 0.8125rem; opacity: 0.7; color: #991b1b !important;">
+            See <em style="color: #991b1b !important;">Color Framework → Color Tiering</em> for details.
+          </p>
+        </div>
+      `}return n`
+      <mms-checkbox
+        label=${e.label}
+        ?checked=${e.checked}
+        ?indeterminate=${e.indeterminate}
+        color-scheme=${e.colorScheme}
+        size=${e.size}
+        state=${e.state}
+        ?readonly=${e.readonly}
+        ?disabled=${e.disabled}
+        ?error=${e.error}
+        error-text=${e.errorText}
+        ?required=${e.required}
+        heading=${e.heading}
+        helper-text=${e.helperText}
+        name=${e.name}
+        checked-value=${e.checkedValue}
+      ></mms-checkbox>
+    `}},S.parameters={...S.parameters,docs:{...S.parameters?.docs,source:{originalSource:`{
+  name: 'Overview',
+  render: () => html\`
+    <div data-theme=\${DOC_THEME} data-mode=\${docMode()} style=\${DOC_ROOT}>
+
+      <!-- Header -->
+      <h1 style="\${t.h1}">Checkbox</h1>
+      <p style="\${t.body} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        Checkboxes allow users to select one or more items from a set. They're commonly used in forms, settings, and filters.
+      </p>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- States -->
+      <h2 style="\${t.h2}">Selection states</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: \${space.content}; margin-bottom: \${space.subsection};">
+        <div style="\${doc.panel} display: flex; flex-direction: column;">
+          <h3 style="\${t.h3}">Unchecked</h3>
+          <p style="\${t.bodySm} \${doc.muted} flex: 1;">
+            Default state. User has not selected this option.
+          </p>
+          <div style="margin-top: \${space.content};"><mms-checkbox label="Unchecked option"></mms-checkbox></div>
+        </div>
+        <div style="\${doc.panel} display: flex; flex-direction: column;">
+          <h3 style="\${t.h3}">Checked</h3>
+          <p style="\${t.bodySm} \${doc.muted} flex: 1;">
+            Selected state. User has chosen this option.
+          </p>
+          <div style="margin-top: \${space.content};"><mms-checkbox label="Checked option" checked></mms-checkbox></div>
+        </div>
+        <div style="\${doc.panel} display: flex; flex-direction: column;">
+          <h3 style="\${t.h3}">Indeterminate</h3>
+          <p style="\${t.bodySm} \${doc.muted} flex: 1;">
+            Mixed state. Used for "select all" when some children are checked.
+          </p>
+          <div style="margin-top: \${space.content};"><mms-checkbox label="Some selected" indeterminate></mms-checkbox></div>
+        </div>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Color Schemes -->
+      <h2 style="\${t.h2}">Color schemes</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.content};">
+        The <code style="\${t.monoSm}">color-scheme</code> prop controls which color palette the checkbox uses when checked.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: \${space.content}; margin-bottom: \${space.subsection};">
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">Primary &amp; secondary</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            Brand colors defined by the active theme.
+          </p>
+          <div style="display: flex; gap: \${space.content};">
+            <mms-checkbox color-scheme="primary" label="Primary" checked></mms-checkbox>
+            <mms-checkbox color-scheme="secondary" label="Secondary" checked></mms-checkbox>
+          </div>
+        </div>
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">Accent &amp; onyx</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            <strong>Accent</strong> is theme-specific highlight. <strong>Onyx</strong> is structural black.
+          </p>
+          <div style="display: flex; gap: \${space.content};">
+            <mms-checkbox color-scheme="accent" label="Accent" checked></mms-checkbox>
+            <mms-checkbox color-scheme="onyx" label="Onyx" checked></mms-checkbox>
+          </div>
+        </div>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Sizes -->
+      <h2 style="\${t.h2}">Sizes</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        Three sizes accommodate different contexts — compact forms, standard inputs, and prominent selections.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: \${space.content}; margin-bottom: \${space.subsection};">
+        <mms-checkbox size="sm" label="Small checkbox" checked></mms-checkbox>
+        <mms-checkbox size="md" label="Medium checkbox (default)" checked></mms-checkbox>
+        <mms-checkbox size="lg" label="Large checkbox" checked></mms-checkbox>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- With Helper Text -->
+      <h2 style="\${t.h2}">With helper text</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        Helper text provides additional guidance below the checkbox.
+      </p>
+
+      <div style="margin-bottom: \${space.subsection};">
+        <mms-checkbox 
+          label="Subscribe to newsletter" 
+          helper-text="We'll send you weekly updates about new features."
+        ></mms-checkbox>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- With Heading -->
+      <h2 style="\${t.h2}">With heading</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        An optional heading can be displayed above the checkbox for field labels.
+      </p>
+
+      <div style="margin-bottom: \${space.subsection};">
+        <mms-checkbox 
+          heading="Notification preferences"
+          label="Send me email notifications" 
+          helper-text="You can change this setting at any time."
+        ></mms-checkbox>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Error State -->
+      <h2 style="\${t.h2}">Error state</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        Error state is used for validation feedback. The checkbox indicator and error message both use the error color.
+      </p>
+
+      <div style="margin-bottom: \${space.subsection};">
+        <mms-checkbox 
+          label="I agree to the terms and conditions" 
+          error
+          error-text="You must accept the terms to continue."
+          required
+        ></mms-checkbox>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Required Indicator -->
+      <h2 style="\${t.h2}">Required indicator</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.content};">
+        When <code style="\${t.monoSm}">required</code> is set, an asterisk appears on the highest-level label. If a heading is present, the asterisk shows there; otherwise it appears on the checkbox label.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: \${space.content}; margin-bottom: \${space.subsection};">
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">With heading</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            Asterisk appears on the heading.
+          </p>
+          <mms-checkbox 
+            heading="Terms agreement"
+            label="I accept the terms" 
+            required
+          ></mms-checkbox>
+        </div>
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">Without heading</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            Asterisk appears on the label.
+          </p>
+          <mms-checkbox 
+            label="I accept the terms" 
+            required
+          ></mms-checkbox>
+        </div>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Disabled & Readonly -->
+      <h2 style="\${t.h2}">Disabled &amp; read-only</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: \${space.content}; margin-bottom: \${space.subsection};">
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">Disabled</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            Prevents interaction and dims appearance.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: \${space.content};">
+            <mms-checkbox label="Disabled unchecked" disabled></mms-checkbox>
+            <mms-checkbox label="Disabled checked" disabled checked></mms-checkbox>
+          </div>
+        </div>
+        <div style="\${doc.panel}">
+          <h3 style="\${t.h3}">Read-only</h3>
+          <p style="\${t.bodySm} \${doc.muted} margin-bottom: \${space.content};">
+            Prevents changes but remains visible and focusable.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: \${space.content};">
+            <mms-checkbox label="Read-only unchecked" readonly></mms-checkbox>
+            <mms-checkbox label="Read-only checked" readonly checked></mms-checkbox>
+          </div>
+        </div>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Checkbox Only (no label) -->
+      <h2 style="\${t.h2}">Checkbox only</h2>
+      <p style="\${t.bodySm} \${doc.muted} max-width: \${PROSE_MAX}; margin-bottom: \${space.subsection};">
+        When no label is provided, only the checkbox indicator is rendered. Useful for table rows or other constrained layouts.
+      </p>
+
+      <div style="display: flex; gap: \${space.content}; align-items: center; margin-bottom: \${space.subsection};">
+        <mms-checkbox></mms-checkbox>
+        <mms-checkbox checked></mms-checkbox>
+        <mms-checkbox indeterminate></mms-checkbox>
+      </div>
+
+      <hr style="\${doc.divider}" />
+
+      <!-- Accessibility -->
+      <h2 style="\${t.h2}">Accessibility</h2>
+
+      <h3 style="\${t.h3}">WCAG 2.2 AA compliance</h3>
+      \${renderWcagComplianceTable(wcagTables['checkbox'].rows)}
+
+      <h3 style="\${t.h3}">Screen reader behavior</h3>
+      <ul style="\${t.bodySm} \${doc.muted} margin: 0 0 \${space.content}; padding-left: var(--spacing-lg1);">
+        <li style="margin-bottom: \${space.label};"><strong>Focus:</strong> Announces label, checked state, and "checkbox"</li>
+        <li style="margin-bottom: \${space.label};"><strong>Indeterminate:</strong> Announces "mixed" or "partially checked"</li>
+        <li style="margin-bottom: \${space.label};"><strong>Required:</strong> Announces "required" when <code style="\${t.monoSm}">required</code> prop is set</li>
+        <li style="margin-bottom: \${space.label};"><strong>Error:</strong> Immediately announces error message via <code style="\${t.monoSm}">role="alert"</code></li>
+        <li><strong>Helper text:</strong> Read as part of field description via <code style="\${t.monoSm}">aria-describedby</code></li>
+      </ul>
+
+      <h3 style="\${t.h3}">Keyboard navigation</h3>
+      <table style="\${doc.table} margin-bottom: \${space.subsection};">
+        <thead>
+          <tr>
+            <th style="\${doc.th} width: 140px;">Key</th>
+            <th style="\${doc.th}">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="\${doc.td}"><kbd style="\${doc.kbd}">Tab</kbd></td>
+            <td style="\${doc.td}">Move focus to / from the checkbox</td>
+          </tr>
+          <tr>
+            <td style="\${doc.td}"><kbd style="\${doc.kbd}">Space</kbd></td>
+            <td style="\${doc.td}">Toggle checkbox checked state</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  \`
+}`,...S.parameters?.docs?.source}}},C.parameters={...C.parameters,docs:{...C.parameters?.docs,source:{originalSource:`{
+  name: 'Playground',
+  tags: ['!dev'],
+  args: {
+    // Core Interaction
+    label: 'I agree to the terms',
+    checked: false,
+    indeterminate: false,
+    // Visual
+    colorScheme: 'primary',
+    size: 'md',
+    state: 'default',
+    readonly: false,
+    disabled: false,
+    // Validation
+    error: false,
+    errorText: 'This field is required',
+    required: false,
+    // Secondary Content
+    heading: '',
+    helperText: '',
+    // Form Integration
+    name: '',
+    checkedValue: 'on',
+    // Global Props
+    theme: 'maximus'
+  },
+  decorators: [(story: () => unknown) => {
+    return html\`
+        <div
+          style="
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem 2rem;
+          "
+        >
+          \${story()}
+        </div>
+      \`;
+  }],
+  argTypes: {
+    // ── Core Interaction ──────────────────────────────────────
+    label: {
+      name: 'Label',
+      control: 'text',
+      description: 'Clickable text next to the checkbox indicator',
+      table: {
+        category: 'Core Interaction'
+      }
+    },
+    checked: {
+      name: 'Checked',
+      control: 'boolean',
+      description: 'Whether the checkbox is selected',
+      table: {
+        category: 'Core Interaction'
+      }
+    },
+    indeterminate: {
+      name: 'Indeterminate',
+      control: 'boolean',
+      description: 'Mixed state, typically used for "select all" when some children are checked',
+      table: {
+        category: 'Core Interaction'
+      }
+    },
+    // ── Visual ────────────────────────────────────────────────
+    colorScheme: {
+      name: 'Color Scheme',
+      control: 'select',
+      options: ['primary', 'secondary', 'accent', 'onyx'],
+      description: 'Brand color applied to checked/indeterminate fill',
+      table: {
+        category: 'Visual'
+      }
+    },
+    size: {
+      name: 'Size',
+      control: 'select',
+      options: ['sm', 'md', 'lg'],
+      description: 'Checkbox indicator and text size',
+      table: {
+        category: 'Visual'
+      }
+    },
+    state: {
+      name: 'State',
+      control: 'select',
+      options: ['default', 'hover', 'focus'],
+      description: 'Interactive state preview (for documentation)',
+      table: {
+        category: 'Visual'
+      }
+    },
+    readonly: {
+      name: 'Read-only',
+      control: 'boolean',
+      description: 'Prevents changes but remains focusable and visible',
+      table: {
+        category: 'Visual'
+      }
+    },
+    disabled: {
+      name: 'Disabled',
+      control: 'boolean',
+      description: 'Prevents interaction and dims appearance',
+      table: {
+        category: 'Visual'
+      }
+    },
+    // ── Validation ────────────────────────────────────────────
+    error: {
+      name: 'Error',
+      control: 'boolean',
+      description: 'Displays error styling and shows error message',
+      table: {
+        category: 'Validation'
+      }
+    },
+    errorText: {
+      name: 'Error Text',
+      control: 'text',
+      description: 'Message displayed when error is true',
+      table: {
+        category: 'Validation'
+      }
+    },
+    required: {
+      name: 'Required',
+      control: 'boolean',
+      description: 'Marks field as required for form validation',
+      table: {
+        category: 'Validation'
+      }
+    },
+    // ── Secondary Content ─────────────────────────────────────
+    heading: {
+      name: 'Heading',
+      control: 'text',
+      description: 'Optional title displayed above the checkbox',
+      table: {
+        category: 'Secondary Content'
+      }
+    },
+    helperText: {
+      name: 'Helper Text',
+      control: 'text',
+      description: 'Supplementary guidance displayed below',
+      table: {
+        category: 'Secondary Content'
+      }
+    },
+    // ── Form Integration ──────────────────────────────────────
+    name: {
+      name: 'Name',
+      control: 'text',
+      description: 'Name the form submits this control under. The older \`field-name\` attribute still works but is deprecated since 1.0.0.',
+      table: {
+        category: 'Form Integration'
+      }
+    },
+    checkedValue: {
+      name: 'Checked Value',
+      control: 'text',
+      description: 'Value submitted to the form when checked',
+      table: {
+        category: 'Form Integration'
+      }
+    },
+    // ── Global Props ──────────────────────────────────────────
+    theme: {
+      name: 'Theme',
+      control: 'select',
+      options: ['maximus', 'dow', 'ves', 'uss-oh-dvs'],
+      description: 'Brand theme',
+      table: {
+        category: 'Global Props'
+      }
+    }
+  },
+  parameters: {
+    docs: {
+      source: {
+        transform: (_src: string, ctx: {
+          args: Record<string, string | boolean>;
+        }) => {
+          const a = ctx.args;
+          const attrs: string[] = [];
+          if (a.label) attrs.push(\`label="\${a.label}"\`);
+          if (a.checked) attrs.push('checked');
+          if (a.indeterminate) attrs.push('indeterminate');
+          if (a.colorScheme !== 'primary') attrs.push(\`color-scheme="\${a.colorScheme}"\`);
+          if (a.size !== 'md') attrs.push(\`size="\${a.size}"\`);
+          if (a.readonly) attrs.push('readonly');
+          if (a.disabled) attrs.push('disabled');
+          if (a.error) attrs.push('error');
+          if (a.errorText && a.error) attrs.push(\`error-text="\${a.errorText}"\`);
+          if (a.required) attrs.push('required');
+          if (a.heading) attrs.push(\`heading="\${a.heading}"\`);
+          if (a.helperText) attrs.push(\`helper-text="\${a.helperText}"\`);
+          if (a.name) attrs.push(\`name="\${a.name}"\`);
+          if (a.checkedValue !== 'on') attrs.push(\`checked-value="\${a.checkedValue}"\`);
+          return \`<mms-checkbox\\n  \${attrs.join('\\n  ')}\\n></mms-checkbox>\`;
+        },
+        language: 'html'
+      }
+    }
+  },
+  render: (args: {
+    label: string;
+    checked: boolean;
+    indeterminate: boolean;
+    colorScheme: string;
+    size: string;
+    state: string;
+    readonly: boolean;
+    disabled: boolean;
+    error: boolean;
+    errorText: string;
+    required: boolean;
+    heading: string;
+    helperText: string;
+    name: string;
+    checkedValue: string;
+    theme: string;
+  }) => {
+    // Validate colorScheme × theme combination using shared config
+    const valid = isValidColorScheme(args.theme as Theme, args.colorScheme as ColorScheme);
+    const tier = getPaletteTier(args.theme as Theme, args.colorScheme as ColorScheme);
+    if (!valid) {
+      const tierLabel = tier === 2 ? 'Tier 2 (Text + Surface)' : 'Tier 3 (Decorative)';
+      const tierReason = tier === 2 ? 'Lacks step 10 (hover state). Use for branded text or badges, not checkboxes.' : 'Lacks text contrast and hover states. Decorative backgrounds only.';
+      return html\`
+        <div style="
+          padding: 1.5rem 2rem;
+          background: #fef2f2;
+          border: 1px solid #ef4444;
+          border-radius: 6px;
+          color: #991b1b;
+          font-size: 0.875rem;
+          line-height: 1.5;
+          max-width: 440px;
+        ">
+          <strong style="display: block; margin-bottom: 0.5rem; color: #991b1b !important;">Invalid combination</strong>
+          <code style="background: #fee2e2; padding: 0.125rem 0.375rem; border-radius: 3px; color: #991b1b !important;">\${args.theme}</code> theme +
+          <code style="background: #fee2e2; padding: 0.125rem 0.375rem; border-radius: 3px; color: #991b1b !important;">\${args.colorScheme}</code> colorScheme
+          <p style="margin: 0.75rem 0 0; opacity: 0.85; color: #991b1b !important;">
+            <strong style="color: #991b1b !important;">\${tierLabel}:</strong> \${tierReason}
+          </p>
+          <p style="margin: 0.5rem 0 0; font-size: 0.8125rem; opacity: 0.7; color: #991b1b !important;">
+            See <em style="color: #991b1b !important;">Color Framework → Color Tiering</em> for details.
+          </p>
+        </div>
+      \`;
+    }
+    return html\`
+      <mms-checkbox
+        label=\${args.label}
+        ?checked=\${args.checked}
+        ?indeterminate=\${args.indeterminate}
+        color-scheme=\${args.colorScheme}
+        size=\${args.size}
+        state=\${args.state}
+        ?readonly=\${args.readonly}
+        ?disabled=\${args.disabled}
+        ?error=\${args.error}
+        error-text=\${args.errorText}
+        ?required=\${args.required}
+        heading=\${args.heading}
+        helper-text=\${args.helperText}
+        name=\${args.name}
+        checked-value=\${args.checkedValue}
+      ></mms-checkbox>
+    \`;
+  }
+}`,...C.parameters?.docs?.source}}},w=[`Overview`,`PlaygroundStory`]}));T();export{S as Overview,C as PlaygroundStory,w as __namedExportsOrder,x as default,T as n,b as t};
